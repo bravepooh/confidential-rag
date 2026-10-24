@@ -1,0 +1,3930 @@
+# Library source registry.  HUMAN-AUTHORED: edit by hand, do not let tooling
+# rewrite this file. Fetch timestamps live in library/fetch-state.json so that
+# running `fetch` can never clobber the documentation below.
+#
+# tier semantics (see docs/sourcing-policy.md):
+#   open            open-licensed / open-access. Full text may be stored.
+#   public_web      openly readable but not open-licensed, OR licence unconfirmed.
+#                   Indexed for retrieval, quoted only briefly with attribution.
+#   original        our own synthesis written for this project.
+#   reference_only  copyrighted books. Bibliography + chapter pointers only;
+#                   what gets indexed is our own concept notes (notes_path).
+#   private         her material. Ingested only on the private box.
+#
+# Every URL here was fetched and verified as serving real content.
+# Sources that remain unfetched (robots.txt disallow) stay registered as
+# citation targets: the therapist can open them, we just do not index them.
+
+sources:
+- id: pact-what-is-pact
+  title: What Is PACT? A Psychobiological Approach to Couple Therapy
+  modality: pact
+  tier: public_web
+  url: https://www.thepactinstitute.com/what-is-pact
+  authors:
+  - The PACT Institute
+  publisher: The PACT Institute
+  year: null
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - pact-core
+  - attachment
+  - arousal-regulation
+  - session-structure
+- id: pact-therapeutic-stance
+  title: The PACT Therapeutic Stance
+  modality: pact
+  tier: public_web
+  url: https://www.thepactinstitute.com/blog/the-pact-therapeutic-stance
+  authors:
+  - Ferrari, Melissa
+  publisher: The PACT Institute
+  year: 2016
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - secure-functioning
+  - therapist-stance
+  - attunement
+- id: pact-working-with-challenging-couples
+  title: Working with Challenging Couples
+  modality: pact
+  tier: public_web
+  url: https://www.thepactinstitute.com/blog/working-with-challenging-couples
+  authors:
+  - Tuccio, Elaine G.
+  publisher: The PACT Institute
+  year: 2016
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - secure-functioning
+  - defenses
+  - real-time-intervention
+  - safety
+- id: pact-tatkin-psychotherapy-net-interview
+  title: Stan Tatkin on a Psychobiological Approach to Couples Therapy
+  modality: pact
+  tier: public_web
+  url: https://www.psychotherapy.net/interview/couples/stan-tatkin
+  authors:
+  - Tatkin, Stan
+  - Wetherford, Ruth
+  publisher: Psychotherapy.net
+  year: 2014
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: db5c6d86cb8ca73e
+  lang: en
+  tags:
+  - pact-core
+  - arousal-regulation
+  - co-regulation
+  - enactment
+- id: pact-tatkin-attachment-styles-interview
+  title: 'Understanding Your Partner''s Attachment Style: An Interview with Stan Tatkin'
+  modality: pact
+  tier: public_web
+  url: https://www.gottman.com/blog/understanding-partners-attachment-style/
+  authors:
+  - Benson, Kyle
+  - Tatkin, Stan
+  publisher: The Gottman Institute
+  year: 2017
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 7955559e7fa73016
+  lang: en
+  tags:
+  - islands-waves-anchors
+  - attachment-styles
+- id: pact-secure-functioning-explainer
+  title: What Is Secure Functioning? The Practice That Changes Everything in Your Relationship
+  modality: pact
+  tier: public_web
+  url: https://empathi.com/blog/what-is-secure-functioning/
+  authors:
+  - O'Sullivan, Figs
+  publisher: Empathi
+  year: 2025
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: b8790cc800f13770
+  lang: en
+  tags:
+  - secure-functioning
+  - couple-bubble
+  - mutual-regulation
+  - repair
+- id: pact-emotion-regulation-couples-adulthood
+  title: Emotion Regulation in Couples Across Adulthood
+  modality: pact
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11210602/
+  authors:
+  - Haase, Claudia M.
+  publisher: Annual Review of Developmental Psychology
+  year: 2023
+  isbn: null
+  license: open access CC-BY 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 458214292badcae3
+  lang: en
+  tags:
+  - co-regulation
+  - arousal
+  - couples-psychobiology
+  - lifespan
+- id: pact-rsa-romantic-relationships-review
+  title: A Systematic Review of Respiratory Sinus Arrhythmia in Romantic Relationships
+  modality: pact
+  tier: public_web
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8406683/
+  authors:
+  - Han, Sohyun C.
+  - Baucom, Brian
+  - Timmons, Adela C.
+  - Margolin, Gayla
+  publisher: Family Process
+  year: 2021
+  isbn: null
+  license: free full text in PMC (NIH author manuscript), not CC-licensed
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 20f99d0a24f035ec
+  lang: en
+  tags:
+  - arousal
+  - physiological-linkage
+  - co-regulation
+  - autonomic
+- id: pact-attachment-social-neuroscience
+  title: Neuroscience of Human Social Interactions and Adult Attachment Style
+  modality: pact
+  tier: open
+  url: https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2012.00212/full
+  authors:
+  - Vrtička, Pascal
+  - Vuilleumier, Patrik
+  publisher: Frontiers in Human Neuroscience
+  year: 2012
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: d2c5ae2915cb40b8
+  lang: en
+  tags:
+  - attachment-neuroscience
+  - threat-safety-appraisal
+  - mentalizing
+- id: pact-cbct-vs-efct-comparison
+  title: 'Cognitive-Behavioral and Emotion-Focused Couple Therapy: Similarities and Differences'
+  modality: pact
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9645475/
+  authors:
+  - Bodenmann, Guy
+  - Kessler, Mirjam
+  - Kuhn, Rebekka
+  - Hocker, Lauren
+  - Randall, Ashley K.
+  publisher: Clinical Psychology in Europe
+  year: 2020
+  isbn: null
+  license: open access CC-BY 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 71474fc2a823ef66
+  lang: en
+  tags:
+  - couple-therapy-outcome
+  - attachment
+  - comparative-models
+- id: pact-wired-for-love-book
+  title: 'Wired for Love: How Understanding Your Partner''s Brain and Attachment Style Can Help You Defuse
+    Conflict and Build a Secure Relationship'
+  modality: pact
+  tier: reference_only
+  url: null
+  authors:
+  - Tatkin, Stan
+  publisher: New Harbinger Publications
+  year: 2011
+  isbn: '9781608820580'
+  license: copyrighted, reference only
+  chapters:
+  - '1. The Couple Bubble: How You Can Keep Each Other Safe and Secure'
+  - '2. The Warring/Loving Brain: How You Can Keep the Love Alive'
+  - '3. Know Your Partner: How Does He or She Really Work?'
+  - '4. Becoming Experts on One Another: How to Please and Soothe Your Partner'
+  - '5. Launchings and Landings: How to Use Morning and Bedtime Rituals'
+  - '6. The Go-To People: How to Remain Available to One Another'
+  - '7. Protecting the Couple Bubble: How to Include Outsiders'
+  - '8. Fighting Well: How to Win by Letting Your Partner Win, Too'
+  - '9. Love Is Up Close: How to Rekindle Love Through Eye Contact'
+  - '10. Live a Happier, Healthier Life: How Your Partnership Can Heal You'
+  notes_path: library/sources/curated/pact-wired-for-love-book.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - couple-bubble
+  - islands-waves-anchors
+  - secure-functioning
+  - foundational
+- id: pact-we-do-book
+  title: 'We Do: Saying Yes to a Relationship of Depth, True Connection, and Enduring Love'
+  modality: pact
+  tier: reference_only
+  url: null
+  authors:
+  - Tatkin, Stan
+  publisher: Sounds True
+  year: 2018
+  isbn: '9781622038947'
+  license: copyrighted, reference only
+  chapters:
+  - 'Introduction: Why Should You ''We Do''?'
+  - 1. The Secret to a Successful Marriage
+  - 2. How Strong Is Your Couple Bubble?
+  - 3. Managing Your Negative Brain
+  notes_path: library/sources/curated/pact-we-do-book.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - secure-functioning
+  - couple-bubble
+  - premarital
+- id: pact-in-each-others-care-book
+  title: 'In Each Other''s Care: A Guide to the Most Common Relationship Conflicts and How to Work Through
+    Them'
+  modality: pact
+  tier: reference_only
+  url: null
+  authors:
+  - Tatkin, Stan
+  publisher: Sounds True / St. Martin's Essentials
+  year: 2023
+  isbn: '9781622039012'
+  license: copyrighted, reference only
+  chapters:
+  - 'Ch. 1: communication, memory, and perception'
+  - 'Ch. 2: blending versus congealing, caring for self and partner at once'
+  - 'Twelve chapters on the ''big five'' conflicts: money, time, sex, mess, kids'
+  - 'Structural issues: monogamy mismatch, children mismatch'
+  - Closing chapters on intimacy and sex
+  notes_path: library/sources/curated/pact-in-each-others-care-book.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - secure-functioning
+  - conflict
+  - repair
+  - big-five
+- id: pact-what-every-therapist-ought-to-know
+  title: 'What Every Therapist Ought to Know: Attachment, Arousal Regulation, and Clinical Techniques
+    in Couple Therapy'
+  modality: pact
+  tier: reference_only
+  url: null
+  authors:
+  - Tatkin, Stan
+  publisher: Macmillan Audio
+  year: 2021
+  isbn: null
+  license: copyrighted, reference only
+  chapters:
+  - 'Eight clinician-facing sessions: anchors, islands and waves; interview techniques to reduce activation;
+    arousal regulation in session; moving couples from disordered communication to secure functioning;
+    therapeutic stance and boundaries; common pitfalls'
+  notes_path: library/sources/curated/pact-what-every-therapist-ought-to-know.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - clinician-facing
+  - arousal-regulation
+  - therapist-stance
+- id: aedp-institute-glossary
+  title: 'AEDP Glossary: Four States, Triangle of Experience, Transformance, Metatherapeutic Processing,
+    Core State, Healing Affects'
+  modality: aedp
+  tier: public_web
+  url: https://aedpinstitute.org/glossary/
+  authors:
+  - AEDP Institute
+  publisher: AEDP Institute
+  year: null
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 14b114642b5f6e55
+  lang: en
+  tags:
+  - four-states
+  - three-triangles
+  - transformance
+  - core-state
+- id: aedp-wired-for-healing
+  title: 'Wired for Healing: Thirteen Ways of Looking at AEDP'
+  modality: aedp
+  tier: public_web
+  url: https://aedpinstitute.org/journal/wired-for-healing/
+  authors:
+  - Fosha, Diana
+  publisher: AEDP Institute
+  year: 2013
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: b333317e12f344a8
+  lang: en
+  tags:
+  - transformance
+  - dyadic-regulation
+  - core-state
+  - positive-affect
+- id: aedp-transformance-into-action
+  title: How to Set Transformance Into Action
+  modality: aedp
+  tier: public_web
+  url: https://aedpinstitute.org/journal/how-to-set-transformance-into-action/
+  authors:
+  - Prenn, Natasha
+  publisher: AEDP Institute
+  year: 2011
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 3d6183aeb43bd136
+  lang: en
+  tags:
+  - transformance
+  - portrayals
+  - metatherapeutic-processing
+- id: aedp-for-couples-mars-paper
+  title: 'AEDP for Couples: From Stuckness and Reactivity to the Felt Experience of Love'
+  modality: aedp
+  tier: public_web
+  url: https://aedpinstitute.org/journal/aedp-for-couples/
+  authors:
+  - Mars, David
+  publisher: AEDP Institute
+  year: 2011
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: a15557165c554e31
+  lang: en
+  tags:
+  - aedp-couples
+  - intersubjective-field
+  - earned-security
+  - true-other
+- id: aedp-and-tct-mars
+  title: AEDP and TCT (Transformative Couples Therapy)
+  modality: aedp
+  tier: public_web
+  url: https://tctinstitute.org/aedp-and-tct
+  authors:
+  - Mars, David
+  publisher: Transformative Couples Therapy Institute
+  year: 2024
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: e1e8f542301d86fc
+  lang: en
+  tags:
+  - aedp-couples
+  - tct
+  - four-states-in-couples
+  - seven-channels
+- id: aedp-seven-channels-of-experience
+  title: The Seven Channels of Experience for Couples
+  modality: aedp
+  tier: public_web
+  url: https://tctinstitute.org/s/The-Seven-Channels-of-Experience-for-Couples.pdf
+  authors:
+  - Mars, David
+  publisher: Transformative Couples Therapy Institute
+  year: 2023
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-20'
+  checksum: 25ff316263a64710
+  lang: en
+  tags:
+  - aedp-couples
+  - seven-channels
+  - somatic
+  - attachment-strategies
+- id: aedp-fosha-quantum-transformation
+  title: 'Quantum Transformation in Trauma and Treatment: Traversing the Crisis of Healing Change'
+  modality: aedp
+  tier: public_web
+  url: https://aedpinstitute.org/wp-content/uploads/2025/08/Fosha_Quantum_Transformation_2006.pdf
+  authors:
+  - Fosha, Diana
+  publisher: 'Journal of Clinical Psychology: In Session'
+  year: 2006
+  isbn: null
+  license: copyright Wiley; PDF publicly posted by the AEDP Institute, not open-licensed
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 7c06745959f2d9ff
+  lang: en
+  tags:
+  - transformational-affect
+  - state-transformation
+  - metatherapeutic-processing
+- id: aedp-mars-podcast-interview
+  title: 'From Disconnection and Loneliness to Aliveness and Intimacy: AEDP for Couples with David Mars'
+  modality: aedp
+  tier: public_web
+  url: https://www.neilsattin.com/blog/2019/04/189-from-disconnection-and-loneliness-to-aliveness-and-intimacy-aedp-for-couples-with-david-mars/
+  authors:
+  - Sattin, Neil
+  - Mars, David
+  publisher: Relationship Alive
+  year: 2019
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: cd62c54422fe706a
+  lang: en
+  tags:
+  - aedp-couples
+  - seven-channels
+  - attachment-wounds
+  - somatic
+- id: aedp-teletherapy-covid-era
+  title: 'Becoming ''Teletherapeutic'': Harnessing AEDP for Challenges of the Covid-19 Era'
+  modality: aedp
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7299455/
+  authors:
+  - Ronen-Setter, Idit H.
+  - Cohen, Esther
+  publisher: Journal of Contemporary Psychotherapy
+  year: 2020
+  isbn: null
+  license: open access (PMC Open Access Subset)
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 15205f337de0505a
+  lang: en
+  tags:
+  - aedp-core
+  - dyadic-regulation
+  - metatherapeutic-processing
+- id: aedp-rosa-case-primary
+  title: 'Integrating AEDP and Cultural Competence Strategies in the Treatment of Relational Trauma: The
+    Case of ''Rosa'''
+  modality: aedp
+  tier: open
+  url: https://pcsp.nationalregister.org/index.php/pcsp/article/view/2032/3436
+  authors:
+  - Vigoda Gonzalez, Nicole
+  publisher: Pragmatic Case Studies in Psychotherapy
+  year: 2018
+  isbn: null
+  license: open access CC BY-NC-SA 3.0 US
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 493785b3a59f1ae0
+  lang: en
+  tags:
+  - aedp-core
+  - relational-trauma
+  - case-study
+  - transformational-affect
+- id: aedp-rosa-case-commentary
+  title: 'Case Studies in AEDP: Reflections on the Case of ''Rosa'''
+  modality: aedp
+  tier: open
+  url: https://pcsp.libraries.rutgers.edu/index.php/pcsp/article/download/2033/3437/8910
+  authors:
+  - Iwakabe, Shigeru
+  publisher: Pragmatic Case Studies in Psychotherapy
+  year: 2018
+  isbn: null
+  license: open access CC BY-NC-SA 3.0 US
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-20'
+  checksum: 1b18202f4b22b38d
+  lang: en
+  tags:
+  - aedp-core
+  - corrective-emotional-experience
+  - emotional-change-process
+- id: aedp-parts-psychology-relational-trauma-thesis
+  title: 'Integrating AEDP and Parts Psychology as a Treatment for Relational Trauma: Three Pragmatic
+    Case Studies of Different Attachment Styles'
+  modality: aedp
+  tier: open
+  url: https://rucore.libraries.rutgers.edu/rutgers-lib/70584/PDF/1/play/
+  authors:
+  - Llewellyn, Tanya
+  publisher: Rutgers University (PsyD dissertation)
+  year: 2023
+  isbn: null
+  license: open thesis, freely available in RUcore
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: cb87bb87171e54c3
+  lang: en
+  tags:
+  - aedp-core
+  - attachment-styles
+  - relational-trauma
+  - parts
+- id: aedp-transforming-power-of-affect-book
+  title: 'The Transforming Power of Affect: A Model for Accelerated Change'
+  modality: aedp
+  tier: reference_only
+  url: null
+  authors:
+  - Fosha, Diana
+  publisher: Basic Books
+  year: 2000
+  isbn: '9780465095674'
+  license: copyrighted, reference only
+  chapters:
+  - 'Part I: Theoretical Foundations (affect and transformation; attachment through the lens of affect;
+    the good-enough caregiver and the optimal dyadic process; development of psychopathology)'
+  - 'Part II: Tools and Materials (three representational schemas; varieties of core affective experience;
+    the healing affects)'
+  - 'Part III: Strategies of Intervention (relational; restructuring; experiential-affective)'
+  - 'Appendix: Technique and Taboo in the Experiential STDPs'
+  notes_path: library/sources/curated/aedp-transforming-power-of-affect-book.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - aedp-foundational
+  - three-triangles
+  - healing-affects
+  - core-affect
+- id: aedp-healing-power-of-emotion-book
+  title: 'The Healing Power of Emotion: Affective Neuroscience, Development and Clinical Practice'
+  modality: aedp
+  tier: reference_only
+  url: null
+  authors:
+  - Fosha, Diana
+  - Siegel, Daniel J.
+  - Solomon, Marion F.
+  publisher: W. W. Norton (Norton Series on Interpersonal Neurobiology)
+  year: 2009
+  isbn: '9780393705485'
+  license: copyrighted, reference only
+  chapters:
+  - Brain Emotional Systems and Qualities of Mental Life (Panksepp)
+  - 'Reciprocal Influences Between Body and Brain: A Polyvagal Perspective (Porges)'
+  - The Functions of Emotion in Infancy (Trevarthen)
+  - Multilevel Meaning Making and Dyadic Expansion of Consciousness Theory (Tronick)
+  - Right Brain Affect Regulation (Schore)
+  - Emotion as Integration (Siegel)
+  - Emotion and Recognition at Work (Fosha)
+  - Emotion, Mindfulness, and Movement (Ogden)
+  - 'Emotion in Romantic Partners: Intimacy Found, Intimacy Lost, Intimacy Reclaimed (Solomon)'
+  - 'Extravagant Emotion: Understanding and Transforming Love Relationships in EFT (Johnson)'
+  - The Communication of Emotions and the Growth of Autonomy and Intimacy Within Family Therapy (Hughes)
+  notes_path: library/sources/curated/aedp-healing-power-of-emotion-book.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - affective-neuroscience
+  - transformational-affect
+  - couples
+  - polyvagal
+- id: aedp-undoing-aloneness-book
+  title: 'Undoing Aloneness and the Transformation of Suffering Into Flourishing: AEDP 2.0'
+  modality: aedp
+  tier: reference_only
+  url: null
+  authors:
+  - Fosha, Diana
+  publisher: American Psychological Association
+  year: 2021
+  isbn: '9781433833960'
+  license: copyrighted, reference only
+  chapters:
+  - Part I. Healing From the Get-Go (how AEDP works; the first session, transformance and cocreating secure
+    attachment)
+  - Part II. Context and Scaffolding (AEDP's place in psychotherapy; moment-to-moment tracking; therapist
+    experience; representational schemas)
+  - Part III. Working With Core Affective Experience (rewiring internal working models; portrayals; agency,
+    will and desire)
+  - Part IV. Maladaptive Affective Experience and Complex Trauma (championing the core self; intra-relational
+    work with traumatic aloneness; dissociation and multiplicity)
+  - Part V. Integration, Flourishing, Core State (metatherapeutic processing in the brain; the transformational
+    theory of AEDP 2.0)
+  notes_path: library/sources/curated/aedp-undoing-aloneness-book.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - aedp-core
+  - four-states
+  - metatherapeutic-processing
+  - flourishing
+- id: aedp-deliberate-practice-book
+  title: Deliberate Practice in Accelerated Experiential Dynamic Psychotherapy
+  modality: aedp
+  tier: reference_only
+  url: null
+  authors:
+  - Prenn, Natasha C. N.
+  - Levenson, Hanna
+  - Vaz, Alexandre
+  - Rousmaniere, Tony
+  publisher: American Psychological Association
+  year: 2023
+  isbn: '9781433842900'
+  license: copyrighted, reference only
+  chapters:
+  - 'Beginner: moment-to-moment tracking; exploring and staying with physical experience; undoing aloneness;
+    affirming'
+  - 'Intermediate: self-involving self-disclosure; self-revealing self-disclosure; metaprocessing'
+  - 'Advanced: working with anxiety; affirmative work with defenses; initiating portrayals; privileging
+    transformance strivings; metatherapeutic processing'
+  - Annotated AEDP practice session
+  notes_path: library/sources/curated/aedp-deliberate-practice-book.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - skills-training
+  - metatherapeutic-processing
+  - clinician-facing
+- id: eft-iceeft-what-is-eft
+  title: What is EFT?
+  modality: eft
+  tier: public_web
+  url: https://iceeft.com/what-is-eft/
+  authors:
+  - International Centre for Excellence in Emotionally Focused Therapy
+  publisher: ICEEFT
+  year: null
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - canonical-definition
+  - attachment
+  - eft-family
+- id: eft-iceeft-research-bibliography
+  title: EFT Research Bibliography
+  modality: eft
+  tier: public_web
+  url: https://iceeft.com/eft-research/
+  authors:
+  - International Centre for Excellence in Emotionally Focused Therapy
+  publisher: ICEEFT
+  year: null
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - bibliography
+  - outcome-research
+  - meta-analyses
+- id: efct-iceeft-hold-me-tight-program
+  title: What is Hold Me Tight?
+  modality: efct
+  tier: public_web
+  url: https://iceeft.com/what-is-hold-me-tight/
+  authors:
+  - International Centre for Excellence in Emotionally Focused Therapy
+  publisher: ICEEFT
+  year: null
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - hold-me-tight
+  - seven-conversations
+  - psychoeducation
+- id: eft-iceeft-what-is-efit
+  title: What is Emotionally Focused Therapy for Individuals (EFIT)?
+  modality: eft
+  tier: public_web
+  url: https://iceeft.com/what-is-emotionally-focused-therapy-for-individuals/
+  authors:
+  - International Centre for Excellence in Emotionally Focused Therapy
+  publisher: ICEEFT
+  year: null
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - efit
+  - individual-therapy
+- id: efct-brubacher-johnson-clarifying-negative-cycle
+  title: Clarifying the Negative Cycle in Emotionally Focused Therapy
+  modality: efct
+  tier: public_web
+  url: https://cls.unc.edu/wp-content/uploads/sites/3019/2018/12/Clarifying-Negative-Cycle-ECFT-2018.pdf
+  authors:
+  - Brubacher, Lorrie
+  - Johnson, Susan M.
+  publisher: Springer, Encyclopedia of Couple and Family Therapy
+  year: 2018
+  isbn: null
+  license: publicly hosted PDF; Springer holds copyright, do not redistribute
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: b23e043eae14f1a8
+  lang: en
+  tags:
+  - negative-cycle
+  - de-escalation
+  - stage-1
+  - pursue-withdraw
+- id: eft-brubacher-distinguishing-eft-from-eft
+  title: Distinguishing Emotionally Focused Therapy from Emotion-focused Therapy
+  modality: eft
+  tier: public_web
+  url: https://www.lbrubacher.com/wp/wp-content/uploads/Distinguishing-Emotionally-Focused-from-Emotion-focused.pdf
+  authors:
+  - Brubacher, Lorrie
+  publisher: lbrubacher.com (ICEEFT trainer, self-published manuscript)
+  year: 2017
+  isbn: null
+  license: public web page, author self-published
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 3f64f590d0d772d5
+  lang: en
+  tags:
+  - johnson-vs-greenberg
+  - lineage
+  - terminology
+- id: efct-nine-steps-lukin
+  title: The Nine Steps of Emotionally Focused Therapy for Couples
+  modality: efct
+  tier: public_web
+  url: https://www.lukincenter.com/the-nine-steps-of-emotionally-focused-therapy-for-couples/
+  authors:
+  - Lukin, Konstantin
+  publisher: Lukin Center for Psychotherapy
+  year: 2024
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - nine-steps
+  - process-map
+- id: efct-stages-and-steps-mahaney
+  title: The Steps and Stages of Emotionally Focused Therapy for Couples
+  modality: efct
+  tier: public_web
+  url: https://southtampacounselor.com/blog/2023/1/18/the-steps-and-stages-of-emotionally-focused-therapy-for-couples
+  authors:
+  - Mahaney, Elizabeth
+  publisher: South Tampa Therapy
+  year: 2023
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 241a0073fbd621de
+  lang: en
+  tags:
+  - three-stages
+  - nine-steps
+  - stabilization
+  - bonding
+- id: efct-stage-1-de-escalation-pagano
+  title: 'Stage 1 of EFT: Creating Safety and Understanding'
+  modality: efct
+  tier: public_web
+  url: https://www.paganowellnessclinic.com/articles-by-pwc/stage-1-of-eft/stage-1-of-eft
+  authors:
+  - Pagano, Jenna
+  publisher: Pagano Wellness Clinic
+  year: 2025
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 8d9fc9b4272d979a
+  lang: en
+  tags:
+  - stage-1
+  - de-escalation
+  - negative-cycle
+  - attachment-needs
+- id: efct-seven-hold-me-tight-conversations-seattle
+  title: The 7 Hold Me Tight Conversations for a Lifetime of Love
+  modality: efct
+  tier: public_web
+  url: https://www.holdmetightseattle.com/7-conversations-hold-me-tight/
+  authors:
+  - Eames, Dennis
+  - Eames, Kim
+  publisher: Hold Me Tight Seattle
+  year: 2025
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - hold-me-tight
+  - raw-spots
+  - demon-dialogues
+- id: efct-rct-shame-intimacy
+  title: 'The effect of emotionally focused couple therapy on shame and intimacy in couples: a randomized
+    controlled trial'
+  modality: efct
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12506414/
+  authors:
+  - Mirzazade, Zahra
+  - Molazade, Javad
+  - Hadianfard, Habib
+  - Taghavi, Mohamadreza
+  publisher: BMC Psychology
+  year: 2025
+  isbn: null
+  license: open access CC-BY-NC-ND 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 445d6cefdf3ed00d
+  lang: en
+  tags:
+  - rct
+  - shame
+  - intimacy
+  - outcome
+- id: efct-cancer-survivor-couples-sced
+  title: Emotionally focused couple therapy in cancer survivor couples with marital and sexual problems
+  modality: efct
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10187887/
+  authors:
+  - van Diest, Selma L.
+  - den Oudsten, Brenda L.
+  - Aaronson, Neil K.
+  - van Lankveld, Jacques J. D. M.
+  publisher: Frontiers in Psychology
+  year: 2023
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 8cee3d687a69057d
+  lang: en
+  tags:
+  - medical-illness
+  - intimacy
+  - responsiveness
+  - process
+- id: efct-infertile-couples-sexual-satisfaction
+  title: The Effectiveness of Emotionally Focused Couples Therapy on Sexual Satisfaction and Marital Adjustment
+    of Infertile Couples
+  modality: efct
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4671378/
+  authors:
+  - Soleimani, Ali Akbar
+  - Najafi, Maryam
+  - Ahmadi, Khodabakhsh
+  - Javidi, Nasirudin
+  publisher: International Journal of Fertility and Sterility
+  year: 2015
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 01868be4c20bd4ad
+  lang: en
+  tags:
+  - outcome
+  - sexuality
+  - marital-adjustment
+- id: eft-client-experience-therapeutic-relationship
+  title: Exploring How Clients Experience the Therapeutic Relationship in Emotion-Focused Therapy
+  modality: eft
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6737069/
+  authors:
+  - Nodtvedt, Oystein O.
+  - Binder, Per-Einar
+  - Stige, Signe H.
+  - Hjeltnes, Aslak
+  publisher: Frontiers in Psychology
+  year: 2019
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 7dac79b210ac98f0
+  lang: en
+  tags:
+  - alliance
+  - ruptures
+  - client-experience
+  - self-criticism
+- id: efct-teletherapy-transition
+  title: 'The transition to Teletherapy: Experiences of emotionally focused therapists'
+  modality: efct
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11833426/
+  authors:
+  - Edwards, Caitlin
+  - Wittenborn, Andrea K.
+  - Morgan, Preston
+  - Heiden-Rootes, Katie
+  publisher: Family Process
+  year: 2025
+  isbn: null
+  license: open access CC-BY 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 34cad01675946ea5
+  lang: en
+  tags:
+  - teletherapy
+  - practice-adaptation
+  - high-conflict
+  - safety
+- id: eft-transdiagnostic-feasibility-protocol
+  title: Emotion-focused therapy as a transdiagnostic treatment for depression, anxiety and related disorders
+  modality: eft
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7140776/
+  authors:
+  - Timulak, Ladislav
+  - Keogh, Daragh
+  - McElvaney, James
+  - Timulakova, Katarina
+  publisher: HRB Open Research
+  year: 2020
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: ff9e3a4d2f7a6126
+  lang: en
+  tags:
+  - greenberg-lineage
+  - transdiagnostic
+  - depression
+  - anxiety
+- id: efct-empathic-conjectures-microanalysis
+  title: 'Empathic Conjectures in Emotionally Focused Couple Therapy: A Process Microanalytic Study'
+  modality: efct
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12445396/
+  authors:
+  - Fatahian-Tehran, Hamed M.
+  - Chatha, Simran
+  - Elliott, Robert
+  publisher: Journal of Marital and Family Therapy
+  year: 2025
+  isbn: null
+  license: open access CC-BY 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: f82306e785cf5d68
+  lang: en
+  tags:
+  - technique
+  - empathic-conjecture
+  - microprocess
+  - training
+- id: efct-relational-memory-reconsolidation
+  title: 'Relational Memory Reconsolidation: A New Lens on Change Mechanisms in EFT for Couples'
+  modality: efct
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13249789/
+  authors:
+  - Ella, Avishai
+  - Bar-Kalifa, Eran
+  publisher: Family Process
+  year: 2026
+  isbn: null
+  license: open access CC-BY-NC-ND 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 5b6e7fadd08a6af1
+  lang: en
+  tags:
+  - change-mechanism
+  - vulnerability-responsiveness
+  - theory
+- id: efct-empirically-supported-models-update
+  title: 'Empirically Supported Couple Therapy Models for Couple Relationship Distress: A Replication
+    and Update'
+  modality: efct
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13474905/
+  authors:
+  - Jackson, Jeffrey B.
+  - Codeca, Luca
+  - Miller, Richard B.
+  - Renner, Samantha M.
+  publisher: Journal of Marital and Family Therapy
+  year: 2026
+  isbn: null
+  license: open access (Wiley Open Access Collection)
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 0f6767bd58b0efc1
+  lang: en
+  tags:
+  - evidence-base
+  - critical-appraisal
+  - chambless-criteria
+  - counterweight
+- id: efct-same-sex-gender-delphi-guidelines
+  title: 'Developing guidelines on EFT for same-sex/gender relationships: Recommendations from a Delphi
+    study'
+  modality: efct
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11851054/
+  authors:
+  - Edwards, Caitlin
+  - Wittenborn, Andrea K.
+  - Allan, Robert
+  publisher: Family Process
+  year: 2025
+  isbn: null
+  license: open access CC-BY 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 2cac390f6a36a4f9
+  lang: en
+  tags:
+  - stages-and-steps
+  - adaptation
+  - minority-stress
+  - guidelines
+- id: efct-systematic-case-studies-thesis
+  title: Systematic case studies of emotionally-focused therapy for couples
+  modality: efct
+  tier: open
+  url: https://rucore.libraries.rutgers.edu/rutgers-lib/57105/
+  authors:
+  - Clark, Steven Michael
+  publisher: Rutgers University (PsyD dissertation)
+  year: 2018
+  isbn: null
+  license: open thesis, freely downloadable
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 9947a7c2638ce4fd
+  lang: en
+  tags:
+  - case-study
+  - session-by-session
+  - model-adaptation
+- id: efct-book-hold-me-tight
+  title: 'Hold Me Tight: Seven Conversations for a Lifetime of Love'
+  modality: efct
+  tier: reference_only
+  url: null
+  authors:
+  - Johnson, Susan M.
+  publisher: Little, Brown Spark
+  year: 2008
+  isbn: '9780316113007'
+  license: copyrighted, reference only
+  chapters:
+  - 'Conversation 1: Recognizing the Demon Dialogues'
+  - 'Conversation 2: Finding the Raw Spots'
+  - 'Conversation 3: Revisiting a Rocky Moment'
+  - 'Conversation 4: Hold Me Tight, Engaging and Connecting'
+  - 'Conversation 5: Forgiving Injuries'
+  - 'Conversation 6: Bonding Through Sex and Touch'
+  - 'Conversation 7: Keeping Your Love Alive'
+  notes_path: library/sources/curated/efct-book-hold-me-tight.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - client-facing
+  - psychoeducation
+  - seven-conversations
+- id: efct-book-practice-of-efct-3rd
+  title: 'The Practice of Emotionally Focused Couple Therapy: Creating Connection (3rd Edition)'
+  modality: efct
+  tier: reference_only
+  url: null
+  authors:
+  - Johnson, Susan M.
+  publisher: Routledge
+  year: 2020
+  isbn: '9780815348016'
+  license: copyrighted, reference only
+  chapters:
+  - 1. The Field of Couple Therapy and EFT
+  - '2. An Attachment View of Love: The EFT Approach'
+  - '3. The EFT Theory of Change: Within and Between'
+  - '4. The Basics of EFT Interventions: Emotions and the Macro-Intervention, the EFT Tango'
+  - '5. Basic EFT Micro Skills: Experiential and Systemic'
+  - '6. Assessment: Defining the Dance and Listening to the Music'
+  - '7. Changing the Music: Toward De-Escalation/Stabilization'
+  - '8. Deepening Engagement: The Beginning of Stage 2'
+  - 9. Reaching for Secure Connection
+  - '10. The Consolidation of a Secure Base: Stage 3'
+  - '11. Key Clinical Issues and Solutions: Becoming an EFT Therapist'
+  - '12. EFFT: Emotionally Focused Family Therapy'
+  - '13. Relationship Traumas: Addressing Attachment Injuries'
+  - '14. Live at an EFT Externship: A Stage 1 EFT Session'
+  - 15. A Stage 2 EFT Session
+  notes_path: library/sources/curated/efct-book-practice-of-efct-3rd.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - primary-text
+  - stages-and-steps
+  - eft-tango
+  - attachment-injury
+- id: eft-book-attachment-theory-in-practice
+  title: 'Attachment Theory in Practice: EFT with Individuals, Couples, and Families'
+  modality: eft
+  tier: reference_only
+  url: null
+  authors:
+  - Johnson, Susan M.
+  publisher: The Guilford Press
+  year: 2019
+  isbn: '9781462538249'
+  license: copyrighted, reference only
+  chapters:
+  - '1. Attachment: An Essential Guide for Science-Based Practice'
+  - 2. Attachment Theory and Science as a Model for Therapeutic Change
+  - '3. Intervention: Working with and Using Emotion to Construct Corrective Experiences'
+  - '4. EFIT in the Attachment Frame: Expanding the Sense of Self'
+  - 5. Emotionally Focused Individual Therapy in Action
+  - 6. Getting to Safe and Sound in Emotionally Focused Couple Therapy
+  - 7. Emotionally Focused Couple Therapy in Action
+  - 8. Restoring Family Bonds in Emotionally Focused Family Therapy
+  - 9. Emotionally Focused Family Therapy in Action
+  - '10. A Postscript: The Promise of Attachment Science'
+  notes_path: library/sources/curated/eft-book-attachment-theory-in-practice.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - attachment
+  - efit
+  - efct
+  - efft
+  - unifying-theory
+- id: efct-book-trauma-survivors
+  title: 'Emotionally Focused Couple Therapy with Trauma Survivors: Strengthening Attachment Bonds'
+  modality: efct
+  tier: reference_only
+  url: null
+  authors:
+  - Johnson, Susan M.
+  publisher: The Guilford Press
+  year: 2002
+  isbn: '9781593851651'
+  license: copyrighted, reference only
+  chapters:
+  - '1. Healing Connections: Expanding the Role of Couple Therapy'
+  - 2. Trauma and Its Aftermath
+  - 3. Attachment and Trauma
+  - 4. Assessment
+  - 5. Interventions
+  - 6. Couple Therapy to Create a Secure Base for the Treatment of Trauma
+  - '10. Relationship Traumas: Attachment Injuries in Close Relationships'
+  - 11. Therapists Who Deal with Dragons
+  notes_path: library/sources/curated/efct-book-trauma-survivors.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - trauma
+  - ptsd
+  - attachment-injury
+  - therapist-self-care
+- id: eft-book-becoming-an-eft-therapist-workbook-2nd
+  title: 'Becoming an Emotionally Focused Therapist: The Workbook (2nd Edition)'
+  modality: eft
+  tier: reference_only
+  url: null
+  authors:
+  - Furrow, James L.
+  - Johnson, Susan M.
+  - Bradley, Brent
+  - Brubacher, Lorrie
+  - Palmer, Gail
+  - Woolley, Scott
+  publisher: Routledge
+  year: 2022
+  isbn: '9780367483425'
+  license: copyrighted, reference only
+  chapters:
+  - '1. Introduction: The Nature of EFT'
+  - 2. Theoretical Background to EFT
+  - 3. EFT Interventions
+  - '4. Stage 1: Alliance, Assessment, and Cycles'
+  - '5. Stage 1: De-escalation and Stabilization'
+  - '6. Stage 2: Withdrawer Re-engagement'
+  - '7. Stage 2: Pursuer Softening'
+  - '8. Stage 3: Consolidation'
+  - 9. Emotionally Focused Therapy for Individuals (EFIT)
+  - 11. Facing Trauma Together through EFT
+  notes_path: library/sources/curated/eft-book-becoming-an-eft-therapist-workbook-2nd.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - training
+  - withdrawer-re-engagement
+  - pursuer-softening
+  - exercises
+- id: efct-book-greenberg-johnson-1988
+  title: Emotionally Focused Therapy for Couples
+  modality: efct
+  tier: reference_only
+  url: null
+  authors:
+  - Greenberg, Leslie S.
+  - Johnson, Susan M.
+  publisher: The Guilford Press
+  year: 1988
+  isbn: '9780898627305'
+  license: copyrighted, reference only
+  chapters:
+  - 'I. Theory and Research: Emotion in Interaction; An Affective Systemic Approach'
+  - 'II. Practice: General Considerations; The Initial Interview; The Process of Therapy; Therapist Interventions;
+    Clinical Issues'
+  - 'III. Effecting Change: The Process of Change; Epilogue, Integration'
+  notes_path: library/sources/curated/efct-book-greenberg-johnson-1988.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - founding-text
+  - original-model
+  - affective-systemic
+- id: efct-book-greenberg-goldman-emotion-focused-couples
+  title: 'Emotion-Focused Couples Therapy: The Dynamics of Emotion, Love, and Power'
+  modality: efct
+  tier: reference_only
+  url: null
+  authors:
+  - Greenberg, Leslie S.
+  - Goldman, Rhonda N.
+  publisher: American Psychological Association
+  year: 2008
+  isbn: '9781433803161'
+  license: copyrighted, reference only
+  chapters:
+  - 'Part I. Theory: Emotion; Affect Regulation; Motivation; Interaction; Culture and Gender'
+  - 'Part II. Practice: Intervention Framework; Therapeutic Tasks Focusing on Interactional Cycles; Therapeutic
+    Tasks Focusing on Individual Emotional States'
+  - 'Part III. Working With Specific Emotions: Anger; Sadness; Fear; Shame; Positive Emotion'
+  notes_path: library/sources/curated/efct-book-greenberg-goldman-emotion-focused-couples.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - greenberg-lineage
+  - self-soothing
+  - specific-emotions
+  - power
+- id: efct-book-workbook-two-of-us-2nd
+  title: 'An Emotionally Focused Workbook for Couples: The Two of Us (2nd Edition)'
+  modality: efct
+  tier: reference_only
+  url: null
+  authors:
+  - Kallos-Lilly, Veronica
+  - Fitzgerald, Jennifer
+  publisher: Routledge
+  year: 2022
+  isbn: '9780367444037'
+  license: copyrighted, reference only
+  chapters:
+  - '2. Attachment Bonds: The Best Chance of Survival'
+  - 4. What Happened to Us? Three Cycles of Relationship Distress
+  - '5. Emotions: How to Make Sense of Them'
+  - '8. Socially Useful Emotions: Hurt, Shame, Guilt and Jealousy'
+  - 9. Rebuilding Our Bond
+  - '10. Relationship Injury: How Can We Repair the Damage?'
+  - 12. Maintaining Intimacy and Revitalizing Our Sex Life
+  notes_path: library/sources/curated/efct-book-workbook-two-of-us-2nd.md
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - client-homework
+  - three-cycles
+  - repair
+- id: ifs-institute-model-outline
+  title: The Internal Family Systems Model Outline
+  modality: ifs
+  tier: public_web
+  url: https://ifs-institute.com/resources/articles/internal-family-systems-model-outline
+  authors:
+  - IFS Institute
+  publisher: IFS Institute
+  year: null
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - model-overview
+  - parts
+  - managers
+  - firefighters
+  - exiles
+  - self
+- id: ifs-institute-evolution-schwartz
+  title: Evolution of The Internal Family Systems Model
+  modality: ifs
+  tier: public_web
+  url: https://ifs-institute.com/resources/articles/evolution-internal-family-systems-model-dr-richard-schwartz-ph-d
+  authors:
+  - Schwartz, Richard C.
+  publisher: IFS Institute
+  year: null
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - history
+  - managers
+  - firefighters
+  - exiles
+  - self-energy
+  - 8-cs
+- id: ifs-institute-larger-self-schwartz
+  title: The Larger Self
+  modality: ifs
+  tier: public_web
+  url: https://ifs-institute.com/resources/articles/larger-self
+  authors:
+  - Schwartz, Richard C.
+  publisher: IFS Institute
+  year: null
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - self
+  - self-energy
+  - therapist-parts
+  - rupture-repair
+  - presence
+- id: ifs-institute-couples-counseling-herbine-blank
+  title: Couples and Marriage Counseling with Internal Family Systems Therapy
+  modality: ifs
+  tier: public_web
+  url: https://ifs-institute.com/resources/articles/couples-marriage-counseling-internal-family-systems-therapy
+  authors:
+  - Herbine-Blank, Toni
+  publisher: IFS Institute
+  year: null
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - couples
+  - ifio
+  - u-turn
+  - differentiation
+  - exiles
+  - self-access
+- id: ifs-institute-research-index
+  title: IFS Institute Research Index
+  modality: ifs
+  tier: public_web
+  url: https://ifs-institute.com/resources/research
+  authors:
+  - IFS Institute
+  publisher: IFS Institute
+  year: null
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - evidence-base
+  - bibliography
+  - rct
+  - glossary
+- id: ifio-toni-herbine-blank-about
+  title: About Intimacy From the Inside Out
+  modality: ifs
+  tier: public_web
+  url: https://www.toniherbineblank.com/about.html
+  authors:
+  - Herbine-Blank, Toni
+  publisher: toniherbineblank.com
+  year: null
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: f7b7d91b15784614
+  lang: en
+  tags:
+  - ifio
+  - couples
+  - model-origin
+  - self-leadership
+  - attachment
+- id: ifs-unblending-rizzo
+  title: Unblending from parts, one of the hidden gems of IFS Therapy
+  modality: ifs
+  tier: public_web
+  url: https://www.therapywithalessio.com/articles/unblending-from-parts-one-of-the-hidden-gems-of-ifs-therapy
+  authors:
+  - Rizzo, Alessio
+  publisher: Therapy with Alessio (Certified IFS Psychotherapist)
+  year: 2021
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 975fa042a283b704
+  lang: en
+  tags:
+  - unblending
+  - blending
+  - self-energy
+  - parts
+  - technique
+- id: ifio-explainer-mindplexcity
+  title: What is Intimacy From the Inside Out (IFIO)?
+  modality: ifs
+  tier: public_web
+  url: https://www.mindplexcity.com/blog/what-is-intimacy-from-the-inside-out-ifio
+  authors:
+  - Villareal, Caitlin
+  publisher: MINDplexcity
+  year: null
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 17d0745d5cdbc3ea
+  lang: en
+  tags:
+  - ifio
+  - couples
+  - self-energy
+  - protectors
+  - principles
+- id: ifio-couples-segerman
+  title: Intimacy From the Inside Out (IFIO) for Couples
+  modality: ifs
+  tier: public_web
+  url: https://lspsychotherapy.com/intimacy-from-the-inside-out-ifio-for-couples/
+  authors:
+  - Segerman, Lana E.
+  publisher: Lana Segerman Psychotherapy
+  year: null
+  isbn: null
+  license: public web page
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 2d754ebb86168c5e
+  lang: en
+  tags:
+  - ifio
+  - couples
+  - self
+  - protective-parts
+  - courageous-communication
+- id: ifs-parts-sud-pilot-2025
+  title: A pilot study of an online group-based Internal Family Systems intervention for comorbid PTSD
+    and substance use
+  modality: ifs
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11983591/
+  authors:
+  - Sweezy, Martha
+  - Schuman-Olivier, Zev
+  publisher: Frontiers in Psychiatry
+  year: 2025
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: f14bee2e59ef7693
+  lang: en
+  tags:
+  - ptsd
+  - substance-use
+  - group-ifs
+  - outcome-study
+  - parts
+- id: ifs-ketamine-assisted-couple-therapy-2026
+  title: Approaches to ketamine-assisted couple therapy
+  modality: ifs
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13275430/
+  authors:
+  - Avruch, David O.
+  publisher: Frontiers in Psychology
+  year: 2026
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 0ce8b88cf3e08723
+  lang: en
+  tags:
+  - couples
+  - ifio
+  - ifs-couple-therapy
+  - self-energy
+  - protectors
+- id: ifs-remarried-couples-stepfamilies-1998
+  title: A Study of the Internal Family Systems Model Applied to Remarried Couples of Stepfamilies in
+    Different Stages of Adjustment
+  modality: ifs
+  tier: open
+  url: https://digitalcommons.andrews.edu/dissertations/264/
+  authors:
+  - Carter, Susan Marie
+  publisher: Andrews University (PhD dissertation)
+  year: 1998
+  isbn: null
+  license: open access CC BY-NC-ND 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - couples
+  - stepfamilies
+  - self-leadership
+  - thesis
+  - parts
+- id: ifs-ptsd-symptom-clusters-thesis-2025
+  title: Efficacy of an Online, Group-Based Internal Family Systems Intervention on PTSD Symptom Clusters
+  modality: ifs
+  tier: open
+  url: https://dash.harvard.edu/handle/1/42719335
+  authors:
+  - Tobiasz Veltz, Laure
+  publisher: Harvard University (master's thesis)
+  year: 2025
+  isbn: null
+  license: open access CC-BY 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 8a275ff1317c8ed2
+  lang: en
+  tags:
+  - ptsd
+  - outcome-study
+  - meta-analysis
+  - group-ifs
+- id: ifs-rheumatoid-arthritis-rct-2013
+  title: A Randomized Controlled Trial of an Internal Family Systems-based Psychotherapeutic Intervention
+    on Outcomes in Rheumatoid Arthritis
+  modality: ifs
+  tier: public_web
+  url: https://www.jrheum.org/content/jrheum/40/11/1831.full.pdf
+  authors:
+  - Shadick, Nancy A.
+  - Sowell, Nancy F.
+  - Sweezy, Martha
+  - Schwartz, Richard C.
+  publisher: The Journal of Rheumatology
+  year: 2013
+  isbn: null
+  license: free full text at publisher, not CC-licensed
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 92f69195a778112a
+  lang: en
+  tags:
+  - rct
+  - outcome-study
+  - self-compassion
+  - depression
+- id: ifs-know-thy-selves-parts-2017
+  title: 'Know Thy Selves: Learning to Understand Oneself Increases the Ability to Understand Others'
+  modality: ifs
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7089715/
+  authors:
+  - Bockler, Anne
+  - Herrmann, Lukas
+  - Trautwein, Fynn-Mathis
+  - Holmes, Tom
+  - Singer, Tania
+  publisher: Journal of Cognitive Enhancement
+  year: 2017
+  isbn: null
+  license: open access CC-BY 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: f6f9883ddaa5997d
+  lang: en
+  tags:
+  - parts
+  - managers
+  - exiles
+  - protectors
+  - empirical
+  - independent-validation
+- id: ifs-nonpathologizing-overview-2023
+  title: 'Internal Family Systems Therapy: Non-pathologizing healing for inner peace'
+  modality: ifs
+  tier: open
+  url: https://scholarsarchive.byu.edu/irp/vol41/iss1/3
+  authors:
+  - Hill, Sylvia
+  publisher: Issues in Religion and Psychotherapy (BYU ScholarsArchive)
+  year: 2023
+  isbn: null
+  license: open access, repository-hosted
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - model-overview
+  - parts
+  - burdens
+  - unburdening
+  - case-studies
+- id: ifs-indian-country-harmony-balance-2014
+  title: 'Internal Family Systems in Indian Country: Perspectives and Practice on Harmony and Balance'
+  modality: ifs
+  tier: public_web
+  url: https://digitalcommons.usu.edu/kicjir/vol3/iss1/6/
+  authors:
+  - McVicker, Suzan A. M.
+  publisher: Journal of Indigenous Research
+  year: 2014
+  isbn: null
+  license: free full text, explicit licence not stated
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - cultural-adaptation
+  - parts
+  - self
+  - non-pathologizing
+- id: ifs-book-schwartz-sweezy-2nd-ed
+  title: Internal Family Systems Therapy, Second Edition
+  modality: ifs
+  tier: reference_only
+  url: null
+  authors:
+  - Schwartz, Richard C.
+  - Sweezy, Martha
+  publisher: The Guilford Press
+  year: 2019
+  isbn: '9781462541461'
+  license: copyrighted, reference only
+  chapters:
+  - 'Part I. Overview: origins; individuals as systems; the Self; burdens; IFS and the body; the role
+    of the therapist'
+  - 'Part II. Practice with individuals: setting the table; in-sight and direct access; finding, focusing
+    and fleshing out protectors; befriending and exploring protector fears; changing protector polarizations;
+    unburdening exiles; doing inner work safely'
+  - 'Part III. Families, couples and larger systems: the model''s view of families; releasing constraints;
+    unburdening in family therapy; 17. Treating Couples with IFS Therapy; social and cultural systems'
+  - Part IV. Research and conclusion; glossary of terms
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - canon
+  - core-text
+  - couples
+  - protectors
+  - unburdening
+- id: ifs-book-intimacy-from-the-inside-out
+  title: 'Intimacy from the Inside Out: Courage and Compassion in Couple Therapy'
+  modality: ifs
+  tier: reference_only
+  url: null
+  authors:
+  - Herbine-Blank, Toni
+  - Kerpelman, Donna M.
+  - Sweezy, Martha
+  publisher: Routledge
+  year: 2016
+  isbn: '9780415708258'
+  license: copyrighted, reference only
+  chapters:
+  - 1. Overview of Internal Family Systems Therapy
+  - 2. Intimacy from the Inside Out
+  - '3. Beginning: The Initial Interview with a Couple'
+  - 4. Breaking Negative Cycles of Behavior
+  - 5. Why Understanding Childhood Matters in our Present Day Relationships
+  - '6. Courageous Communication: Facilitating Speaking and Listening Well'
+  - 7. Individual Work with One Partner
+  - '8. Projections: I See in You What I''ve Seen Before'
+  - 9. Working with Shame and Blame
+  - '10. Healing Relationship Rupture: Apology and Forgiveness'
+  - 11. Countertransference and the Role of the IFS Therapist
+  - 12. Cases That Will Challenge the Therapist's Ability to Stay Present
+  - 13. More about Sex
+  - 14. After the Session
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - ifio
+  - couples
+  - canon
+  - courageous-communication
+  - shame
+  - repair
+- id: ifs-book-no-bad-parts
+  title: 'No Bad Parts: Healing Trauma and Restoring Wholeness with the Internal Family Systems Model'
+  modality: ifs
+  tier: reference_only
+  url: null
+  authors:
+  - Schwartz, Richard C.
+  publisher: Sounds True
+  year: 2021
+  isbn: '9781683646686'
+  license: copyrighted, reference only
+  chapters:
+  - 'Part One: Internal Family Systems (we''re all multiple; why parts blend; this changes everything;
+    more on systems; mapping our inner systems)'
+  - 'Part Two: Self-Leadership (healing and transformation; the Self in action; vision and purpose)'
+  - 'Part Three: Self in the Body, Self in the World (life lessons and tor-mentors; the laws of inner
+    physics; embodiment)'
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - canon
+  - self-leadership
+  - unblending
+  - parts-mapping
+  - client-friendly
+- id: ifs-book-you-are-the-one
+  title: 'You Are the One You''ve Been Waiting For: Applying Internal Family Systems to Intimate Relationships'
+  modality: ifs
+  tier: reference_only
+  url: null
+  authors:
+  - Schwartz, Richard C.
+  publisher: Sounds True
+  year: 2023
+  isbn: '9781683643623'
+  license: copyrighted, reference only
+  chapters:
+  - 'Introduction: the three projects; becoming the primary caretaker of your parts; the Self; Self-to-Self
+    interaction; speaking for parts'
+  - 1. Cultural Constraints to Intimacy
+  - 2. The Development and Power of Exiles
+  - 3. Courageous Love and Doomed Relationships
+  - 4. An Example of Growing Toward Self-Leadership
+  - '5. Getting Practical: How to Bring In Courageous Love'
+  - '6. The Whole Picture: Conflict; Intimacy'
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - couples
+  - intimate-relationships
+  - exiles
+  - courageous-love
+  - canon
+- id: ifs-book-couple-therapy-skills-manual
+  title: 'Internal Family Systems Couple Therapy Skills Manual: Healing Relationships with Intimacy From
+    the Inside Out'
+  modality: ifs
+  tier: reference_only
+  url: null
+  authors:
+  - Herbine-Blank, Toni
+  - Sweezy, Martha
+  publisher: PESI Publishing
+  year: 2021
+  isbn: '9781683733676'
+  license: copyrighted, reference only
+  chapters:
+  - Conceptual underpinnings of IFIO
+  - 'Phase one: connecting with the couple and introducing IFIO'
+  - 'Phase two: tracking patterns of conflict, autonomic reactivity, and helping partners unblend'
+  - Common challenges for the couple therapist
+  - Experiential exercises and worksheets
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - ifio
+  - couples
+  - skills-manual
+  - exercises
+- id: ifs-book-new-dimensions
+  title: 'Internal Family Systems Therapy: New Dimensions'
+  modality: ifs
+  tier: reference_only
+  url: null
+  authors:
+  - Sweezy, Martha
+  - Ziskind, Ellen L.
+  publisher: Routledge
+  year: 2013
+  isbn: '9780415506830'
+  license: copyrighted, reference only
+  chapters:
+  - The Therapist-Client Relationship and the Transformative Power of Self (Schwartz)
+  - 'Emotional Cannibalism: Shame in Action (Sweezy)'
+  - 'Self in Relationship: An Introduction to IFS Couple Therapy (Herbine-Blank)'
+  - Embodying the Internal Family (McConnell)
+  - Connecting Neuroscience, Psychopharmacology and IFS for Trauma (Anderson)
+  - Welcoming All Erotic Parts (Rosenberg)
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - edited-volume
+  - couples
+  - shame
+  - sexuality
+  - somatic
+- id: cross-method-map
+  title: 'Cross-method map: four languages for the same moments'
+  modality: cross
+  tier: original
+  url: null
+  authors:
+  - confidential-rag project
+  publisher: null
+  year: 2026
+  isbn: null
+  license: original work written for this project
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - eft
+  - ifs
+  - pact
+  - aedp
+  - integration
+  - session-reading
+  - cautions
+- id: cross-adult-attachment-stress-romantic
+  title: Adult Attachment, Stress, and Romantic Relationships
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4845754/
+  authors:
+  - Simpson, Jeffry A.
+  - Rholes, W. Steven
+  publisher: Current Opinion in Psychology (Elsevier) via PubMed Central
+  year: 2017
+  isbn: null
+  license: open access (PMC free full text, NIH public-access author manuscript)
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: fceb999ce74f3df9
+  lang: en
+  tags:
+  - attachment
+  - adult_attachment_styles
+  - stress
+  - couples
+- id: cross-attachment-dyadic-patterns
+  title: 'The Attachment Dynamic: Dyadic Patterns of Anxiety and Avoidance in Relationship Functioning'
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8336265/
+  authors:
+  - Rodriguez, Lindsey M.
+  - Coy, Anthony
+  - Hadden, Benjamin W.
+  publisher: Journal of Social and Personal Relationships (SAGE) via PubMed Central
+  year: 2021
+  isbn: null
+  license: open access (PMC free full text, NIH public-access author manuscript)
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 12995a8264fff9e0
+  lang: en
+  tags:
+  - attachment
+  - adult_attachment_styles
+  - dyadic
+  - couples
+- id: cross-attachment-emotion-regulation-review
+  title: 'Attachment-Related Differences in Emotion Regulation in Adults: A Systematic Review on Attachment
+    Representations'
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10296607/
+  authors:
+  - Eilert, Dirk W.
+  - Buchheim, Anna
+  publisher: Brain Sciences (MDPI)
+  year: 2023
+  isbn: null
+  license: open access CC-BY 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: af80e826c5734ba7
+  lang: en
+  tags:
+  - attachment
+  - emotion_regulation
+  - aai
+  - systematic_review
+- id: cross-attachment-measure-convergence
+  title: 'Testing convergence among attachment methods: Adult Attachment Interview, Relationship-Specific
+    Attachment Scale, and Implicit Association Test'
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12011877/
+  authors:
+  - Petrowski, Katja
+  - Imhoff, Roland
+  - Schmalbach, Bjarne
+  - Strauss, Bernhard
+  - Banse, Rainer
+  publisher: Frontiers in Psychology
+  year: 2025
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: c1f6bcdb765f7495
+  lang: en
+  tags:
+  - attachment
+  - measurement
+  - adult_attachment_styles
+  - methodological_caution
+- id: cross-aai-unresolved-critique
+  title: 'Trauma and loss in the Adult Attachment Interview: Situating the unresolved state of mind classification
+    in disciplinary and social context'
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10492659/
+  authors:
+  - Bakkum, Lianne
+  - Schuengel, Carlo
+  - Foster, Sarah L.
+  - Fearon, R. M. Pasco
+  - Duschinsky, Robbie
+  publisher: History of the Human Sciences (SAGE)
+  year: 2023
+  isbn: null
+  license: open access CC-BY 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: fd1f5f93a0a75dc3
+  lang: en
+  tags:
+  - attachment
+  - aai
+  - trauma
+  - critical_appraisal
+- id: cross-polyvagal-science-of-safety
+  title: 'Polyvagal Theory: A Science of Safety'
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9131189/
+  authors:
+  - Porges, Stephen W.
+  publisher: Frontiers in Integrative Neuroscience
+  year: 2022
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 1a526be900b67e33
+  lang: en
+  tags:
+  - polyvagal
+  - autonomic_regulation
+  - neuroception
+  - primary_source
+- id: cross-polyvagal-untenable-critique
+  title: 'Why The Polyvagal Theory Is Untenable: An international expert evaluation of the polyvagal theory
+    and commentary upon Porges, S.W. (2025)'
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12937499/
+  authors:
+  - Grossman, Paul
+  - Ackland, Gareth L.
+  - Allen, Andrew M.
+  - Berntson, Gary G.
+  - Neuhuber, Winfried
+  - Taylor, Edwin W.
+  - Paton, Julian F. R.
+  - et al.
+  publisher: Clinical Neuropsychiatry (Giovanni Fioriti Editore)
+  year: 2026
+  isbn: null
+  license: open access CC-BY-NC-SA 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: c4e685bc2aab65f9
+  lang: en
+  tags:
+  - polyvagal
+  - critical_appraisal
+  - autonomic_regulation
+  - balance
+- id: cross-polyvagal-porges-response
+  title: 'When A Critique Becomes Untenable: A Scholarly Response To Grossman Et Al.''s Evaluation Of
+    Polyvagal Theory'
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12937496/
+  authors:
+  - Porges, Stephen W.
+  publisher: Clinical Neuropsychiatry (Giovanni Fioriti Editore)
+  year: 2026
+  isbn: null
+  license: open access CC-BY-NC-SA 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 6fa988332ab7e5a3
+  lang: en
+  tags:
+  - polyvagal
+  - rebuttal
+  - autonomic_regulation
+  - balance
+- id: cross-autonomic-hrv-skeptical-appraisal
+  title: 'Autism Spectrum Disorder in Children Is Not Associated With Abnormal Autonomic Nervous System
+    Function: Hypothesis and Theory'
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8964964/
+  authors:
+  - Barbier, Ashley
+  - Chen, Ji-Hong
+  - Huizinga, Jan D.
+  publisher: Frontiers in Psychiatry
+  year: 2022
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 796de4d6088bf575
+  lang: en
+  tags:
+  - polyvagal
+  - hrv
+  - critical_appraisal
+  - autonomic_regulation
+- id: cross-physiological-synchrony-couples
+  title: Strangers, Friends, and Lovers Show Different Physiological Synchrony in Different Emotional
+    States
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7017247/
+  authors:
+  - Bizzego, Andrea
+  - Azhari, Atiqah
+  - Campostrini, Nicola
+  - Truzzi, Anna
+  - Ng, Li Ying
+  - Gabrieli, Giulio
+  - Bornstein, Marc H.
+  - Setoh, Peipei
+  - Esposito, Gianluca
+  publisher: Behavioral Sciences (MDPI)
+  year: 2019
+  isbn: null
+  license: open access CC-BY 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 2c734117a77d11ed
+  lang: en
+  tags:
+  - co_regulation
+  - physiological_linkage
+  - synchrony
+  - couples
+- id: cross-attachment-empathic-stress-couples
+  title: 'Securely stressed: association between attachment and empathic stress in romantic couples'
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12432227/
+  authors:
+  - Gallistl, Mathilde
+  - Handke, Lydia
+  - Kungl, Melanie
+  - Gabler, Sandra
+  - Croy, Ilona
+  - Vrticka, Pascal
+  - Engert, Veronika
+  publisher: Scientific Reports (Nature Portfolio)
+  year: 2025
+  isbn: null
+  license: open access CC-BY 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 9cac5a5f5de2ed27
+  lang: en
+  tags:
+  - co_regulation
+  - attachment
+  - cortisol
+  - physiological_linkage
+  - couples
+- id: cross-emotion-regulation-couples-adulthood
+  title: Emotion Regulation in Couples Across Adulthood
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11210602/
+  authors:
+  - Haase, Claudia M.
+  publisher: Annual Review of Developmental Psychology via PubMed Central
+  year: 2023
+  isbn: null
+  license: open access (PMC free full text, NIH public-access author manuscript)
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 458214292badcae3
+  lang: en
+  tags:
+  - emotion_regulation
+  - co_regulation
+  - couples
+  - review
+- id: cross-emotion-regulation-success-quality
+  title: Are we doing good? Perceived emotion regulation success and relationship quality in couples
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12756379/
+  authors:
+  - Li, Yan
+  - Kunzmann, Ute
+  - Kanske, Philipp
+  - Rohr, Margund K.
+  publisher: Frontiers in Psychology
+  year: 2025
+  isbn: null
+  license: open access CC-BY 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 373466fce9cd0cb7
+  lang: en
+  tags:
+  - emotion_regulation
+  - couples
+  - relationship_quality
+  - dyadic
+- id: cross-neurobiology-love-pair-bonding
+  title: The Neurobiology of Love and Pair Bonding from Human and Animal Perspectives
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10295201/
+  authors:
+  - Blumenthal, Sarah A.
+  - Young, Larry J.
+  publisher: Biology (MDPI)
+  year: 2023
+  isbn: null
+  license: open access CC-BY 4.0
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 1fe495e7edcca0fb
+  lang: en
+  tags:
+  - affective_neuroscience
+  - oxytocin
+  - attachment_neurobiology
+  - pair_bonding
+- id: cross-emotion-dynamics-relationship-outcomes
+  title: Variation in emotion dynamics over time is associated with future relationship outcomes
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11007024/
+  authors:
+  - Johal, Simran K.
+  - Ferrer, Emilio
+  publisher: Frontiers in Human Neuroscience
+  year: 2024
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-19'
+  checksum: 2f0b42186afc4e89
+  lang: en
+  tags:
+  - gottman
+  - couple_interaction
+  - conflict_and_repair
+  - dynamical_systems
+- id: ifs-core-concepts
+  title: IFS core concepts, for reading a couples session (EN/HE)
+  modality: ifs
+  tier: original
+  url: null
+  authors:
+  - confidential-rag project
+  publisher: null
+  year: 2026
+  isbn: null
+  license: original work written for this project
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - parts
+  - managers
+  - firefighters
+  - exiles
+  - self
+  - blending
+  - burdens
+  - hebrew
+- id: ifs-couples-ifio
+  title: IFS with couples (IFIO), for reading a session (EN/HE)
+  modality: ifs
+  tier: original
+  url: null
+  authors:
+  - confidential-rag project
+  publisher: null
+  year: 2026
+  isbn: null
+  license: original work written for this project
+  chapters: []
+  notes_path: null
+  fetched_at: null
+  checksum: null
+  lang: en
+  tags:
+  - couples
+  - ifio
+  - u-turn
+  - speaking-for-parts
+  - protectors
+  - projections
+  - hebrew
+- id: efct-lgbtq-client-recommendations
+  title: LGBTQ+ Client Recommendations for Adapting Emotionally Focused Therapy
+  modality: efct
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12093043/
+  authors:
+  - Edwards, Caitlin
+  - Wittenborn, Andrea K.
+  - Allan, Robert
+  publisher: Journal of Marital and Family Therapy
+  year: 2025
+  isbn: null
+  license: open access CC-BY-NC-ND
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-20'
+  checksum: 71ab560c01a7dba3
+  lang: en
+  tags:
+  - adaptation
+  - minority-stress
+  - inclusive-practice
+- id: efct-chinese-couples-emotion-access
+  title: 'Emotion Access and Navigation in Chinese Couples: Insights and Adaptations From Emotionally
+    Focused Couples Therapy'
+  modality: efct
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12636061/
+  authors:
+  - Tseng, Chi-Fang
+  - Liu, J.
+  - Fatahian-Tehran, Hamed M.
+  - Liu, T.
+  publisher: Journal of Marital and Family Therapy
+  year: 2026
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-20'
+  checksum: e9de47619c9458a3
+  lang: en
+  tags:
+  - cultural-adaptation
+  - emotion-access
+  - couples
+- id: efct-core-processes-two-samples
+  title: 'Core Processes in Emotionally Focused Couple Therapy: Testing Hypothesized Associations in Two
+    Independent Samples'
+  modality: efct
+  tier: public_web
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13578553/
+  authors:
+  - Conradi, Henk Jan
+  - Jonker, S.
+  - Noordhof, Arjen
+  publisher: Family Process
+  year: 2026
+  isbn: null
+  license: free full text in PMC, licence not confirmed
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-20'
+  checksum: c9d20157722156eb
+  lang: en
+  tags:
+  - change-mechanism
+  - core-process
+  - empirical-test
+  - blamer-softening
+- id: cross-attachment-regulation-flexibility
+  title: Adult Attachment and Emotion Regulation Flexibility in Romantic Relationships
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11428407/
+  authors:
+  - Mosannenzadeh, F.
+  - Luijten, M.
+  - Maciejewski, D. F.
+  - Wiewel, G. V.
+  publisher: Behavioral Sciences
+  year: 2024
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-20'
+  checksum: f5a1f62c22f2ddc3
+  lang: en
+  tags:
+  - attachment
+  - emotion_regulation
+  - flexibility
+  - diary-study
+- id: cross-physiological-attunement-flourishing
+  title: 'Physiological attunement and flourishing: understanding the influence of relationships on health'
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12354601/
+  authors:
+  - Bastos, M. A. V.
+  - Braz, D. F.
+  - Porto, A. L. M.
+  - Cordeiro, K. S. D. S.
+  publisher: Frontiers in Psychiatry
+  year: 2025
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-20'
+  checksum: e541f4e884c29a02
+  lang: en
+  tags:
+  - co_regulation
+  - physiological_linkage
+  - attunement
+  - health
+- id: cross-intergenerational-negative-communication
+  title: 'Intergenerational Transmission: Observed Negative Communication Mediates Dyadic Associations
+    Between Childhood Maltreatment and Marital Quality'
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12340743/
+  authors:
+  - Zamir, Osnat
+  - Adar, O.
+  - Cohen, D. B.
+  - Goldberg, C.
+  publisher: Family Process
+  year: 2025
+  isbn: null
+  license: open access CC-BY-NC-ND
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-20'
+  checksum: 4191096ea607a2ee
+  lang: en
+  tags:
+  - trauma
+  - observed-communication
+  - marital-quality
+  - intergenerational
+- id: cross-affect-coding-dynamical-modeling
+  title: Applying affect coding and dynamical systems mathematical modeling to understanding the role
+    of emotional expression
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12055768/
+  authors:
+  - Cipriano, G.
+  - Peluso, Paul R.
+  - Bright, E.
+  - Hutarkova, B.
+  publisher: Frontiers in Human Neuroscience
+  year: 2025
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-20'
+  checksum: e2c2e8c8db008b59
+  lang: en
+  tags:
+  - gottman
+  - affect-coding
+  - dynamical-systems
+  - influence-function
+- id: cross-romantic-love-cooption
+  title: Romantic love evolved by co-opting mother-infant bonding
+  modality: cross
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10616966/
+  authors:
+  - Bode, Adam
+  publisher: Frontiers in Psychology
+  year: 2023
+  isbn: null
+  license: open access CC-BY
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-20'
+  checksum: 3d8b3987c3c665ec
+  lang: en
+  tags:
+  - attachment_neurobiology
+  - pair_bonding
+  - evolution
+  - oxytocin
+- id: cross-partner-specificity-nucleus-accumbens
+  title: Reduced neural specificity for a romantic partner in the nucleus accumbens over relationship
+    duration
+  modality: cross
+  tier: public_web
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12873753/
+  authors:
+  - Fujisaki, K.
+  - Ueda, R.
+  - Nakai, R.
+  - Abe, N.
+  publisher: Social Cognitive and Affective Neuroscience
+  year: 2026
+  isbn: null
+  license: free full text in PMC, licence not confirmed
+  chapters: []
+  notes_path: null
+  fetched_at: '2026-09-20'
+  checksum: b70c90878f0673a7
+  lang: en
+  tags:
+  - affective_neuroscience
+  - pair_bonding
+  - long-term-relationships
+
+# ===========================================================================
+# IFS expansion. EVERY url below was fetched and verified by this session
+# directly (HTTP 200, real body text, title matching the claimed topic).
+# Titles are the ones WE fetched, not titles reported by a research agent:
+# an agent in this session fabricated URLs and metadata it never retrieved,
+# so no agent-asserted source was accepted on trust.
+# Author/year on the public_web tier is agent-supplied and spot-checked
+# rather than exhaustively re-derived; every URL is live and openable.
+# ===========================================================================
+
+- id: ifio-herbine-blank-skills-manual
+  title: Toni Herbine-Blank on IFIO and the new IFS Couple Therapy Skills Manua
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/toni-herbine-blank-ifio-and-new-ifs-couple-therapy-skills-manual
+  authors:
+  - Herbine-Blank, Toni
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - couples
+  - ifio
+  - courageous-communication
+  - transcript
+  year: 2021
+
+- id: ifio-lingren-couples
+  title: Working with couples and relationships, with Kate Lingren
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/working-couples-and-relationships-kate-lingren
+  authors:
+  - Lingren, Kate
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - couples
+  - ifio
+  - u-turn
+  - negative-cycle
+  - transcript
+  year: 2020
+
+- id: ifio-wonder-sexual-intimacy
+  title: Unlocking the Light of Sexual Intimacy with Nancy Wonder and IFIO | IF
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/index.php/multimedia/webinars/unlocking-light-sexual-intimacy-nancy-wonder-and-ifio
+  authors:
+  - Wonder, Nancy
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - couples
+  - ifio
+  - sexuality
+  - transcript
+  year: 2022
+
+- id: ifs-terry-real-relational-lives
+  title: Our Relational Lives - with Terry Real
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/our-relational-lives-terry-real
+  authors:
+  - Real, Terrence
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - couples
+  - relational-life-therapy
+  - transcript
+  year: 2021
+
+- id: ifs-legacy-burdens-sinko
+  title: Legacy Burdens with Ann Sinko
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/legacy-burdens-ann-sinko
+  authors:
+  - Sinko, Ann L.
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - legacy-burdens
+  - unburdening
+  - intergenerational
+  - transcript
+  year: 2019
+
+- id: ifs-legacy-burdens-arbel
+  title: 'Legacy Burdens and Heirlooms: a Talk with Osnat Arbel'
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/legacy-burdens-and-heirlooms-talk-osnat-arbel
+  authors:
+  - Arbel, Osnat
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - legacy-burdens
+  - intergenerational
+  - transcript
+  year: 2021
+
+- id: ifs-self-like-parts-pastor
+  title: Befriending Self-like Parts with Mariel Pastor
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/befriending-self-parts-mariel-pastor
+  authors:
+  - Pastor, Mariel
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - self-like-parts
+  - stalled-therapy
+  - transcript
+  year: 2022
+
+- id: ifs-direct-access-neustadt
+  title: The Gifts of our Protectors and Direct Access with Paul Neustadt
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/gifts-our-protectors-and-direct-access-paul-neustadt
+  authors:
+  - Neustadt, Paul
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - direct-access
+  - protectors
+  - transcript
+
+- id: ifs-explicit-direct-access-booth
+  title: Explicit Direct Access with Protectors and Exiles -  Fran Booth
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/explicit-direct-access-protectors-and-exiles-fran-booth
+  authors:
+  - Booth, Fran
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - direct-access
+  - protectors
+  - exiles
+  - transcript
+  year: 2021
+
+- id: ifs-gifts-of-exiles-neustadt
+  title: The Gifts of our Exiles with Paul Neustadt
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/index.php/multimedia/webinars/gifts-our-exiles-paul-neustadt
+  authors:
+  - Neustadt, Paul
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - exiles
+  - burdens
+  - witnessing
+  - transcript
+  year: 2020
+
+- id: ifs-challenging-protectors-burris
+  title: Four Types of Challenging Protectors with Chris Burris
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/four-types-challenging-protectors-chris-burris
+  authors:
+  - Burris, Chris
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - protectors
+  - harsh-managers
+  - firefighters
+  - transcript
+
+- id: ifs-extreme-parts-sykes
+  title: IFS and Extreme Parts with Cece Sykes
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/ifs-and-extreme-parts-cece-sykes
+  authors:
+  - Sykes, Cece
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - firefighters
+  - extreme-parts
+  - addiction
+  - transcript
+
+- id: ifs-inner-critic-burris
+  title: Befriending your Inner Critic with Chris Burris
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/befriending-your-inner-critic-chris-burris
+  authors:
+  - Burris, Chris
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - inner-critic
+  - managers
+  - unblending
+  - transcript
+  year: 2020
+
+- id: ifs-no-bad-parts-schwartz
+  title: 'No Bad Parts: Individual and Collective Healing with Dick Schwartz | I'
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/no-bad-parts-individual-and-collective-healing-dick-schwartz
+  authors:
+  - Schwartz, Richard C.
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - multiplicity
+  - self-energy
+  - no-bad-parts
+  - transcript
+  year: 2021
+
+- id: ifs-schwartz-founder-talk
+  title: A Talk with IFS creator and founder Richard Schwartz
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/talk-ifs-creator-and-founder-richard-schwartz
+  authors:
+  - Schwartz, Richard C.
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - polarization
+  - protectors
+  - self-energy
+  - transcript
+  year: 2020
+
+- id: ifs-schwartz-ferriss-transcript
+  title: 'The Tim Ferriss Show Transcripts: Richard Schwartz — IFS, Psychedelic'
+  modality: ifs
+  tier: public_web
+  url: https://tim.blog/2021/01/15/richard-schwartz-internal-family-systems-transcript/
+  authors:
+  - Schwartz, Richard C.
+  - Ferriss, Tim
+  publisher: The Tim Ferriss Show
+  license: public web page
+  tags:
+  - parts-taxonomy
+  - exiles
+  - unburdening
+  - live-demo
+  - transcript
+  year: 2021
+
+- id: ifs-common-pitfalls-language
+  title: Common Pitfalls in IFS language, with Mariel Pastor
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/common-pitfalls-ifs-language-mariel-pastor
+  authors:
+  - Pastor, Mariel
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - therapist-errors
+  - language
+  - transcript
+  year: 2022
+
+- id: ifs-suspicious-stubborn-parts-elkin
+  title: 'Working with suspicious, stubborn, and dangerous parts: A Talk with Mi'
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/working-suspicious-stubborn-and-dangerous-parts-talk-mike-elkin
+  authors:
+  - Elkin, Mike
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - protector-refusal
+  - contracting
+  - technique
+  - transcript
+
+- id: ifs-supervision-model
+  title: A Model for IFS Supervision and Consultation with Liz Martins and Emma
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/index.php/multimedia/webinars/model-ifs-supervision-and-consultation-liz-martins-and-emma-redfern
+  authors:
+  - Martins, Liz
+  - Redfern, Emma
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - supervision
+  - therapist-parts
+  - transcript
+  year: 2022
+
+- id: ifs-therapist-burdens-bronstein
+  title: The Tyranny of Change and other Therapist Burdens with Einat Bronstein
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/tyranny-change-and-other-therapist-burdens-einat-bronstein
+  authors:
+  - Bronstein, Einat
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - therapist-parts
+  - countertransference
+  - burnout
+  - transcript
+  year: 2022
+
+- id: ifs-therapeutic-relationship-bronstein
+  title: The Therapeutic Relationship in IFS with Einat Bronstein
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/therapeutic-relationship-ifs-einat-bronstein
+  authors:
+  - Bronstein, Einat
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - therapeutic-relationship
+  - self-to-self
+  - transcript
+  year: 2020
+
+- id: ifs-dose-of-empathy-rothman
+  title: Alexia Rothman on The Therapeutic Dose of Empathy in IFS
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/alexia-rothman-therapeutic-dose-empathy-ifs
+  authors:
+  - Rothman, Alexia
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - empathy
+  - therapist-blending
+  - transcript
+  year: 2021
+
+- id: ifs-trauma-dissociation-twombly
+  title: Trauma and Dissociation Informed IFS with Joanne Twombly
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/trauma-and-dissociation-informed-ifs-joanne-twombly
+  authors:
+  - Twombly, Joanne H.
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - complex-trauma
+  - dissociation
+  - contraindications
+  - transcript
+
+- id: ifs-trauma-neuroscience-anderson
+  title: IFS, Trauma and Neuroscience with Frank Anderson
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/ifs-trauma-and-neuroscience-frank-anderson
+  authors:
+  - Anderson, Frank
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - trauma
+  - neuroscience
+  - transcript
+  year: 2019
+
+- id: ifs-fisher-structural-dissociation
+  title: Janina Fisher Perspective on Trauma and IFS
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/janina-fisher-perspective-trauma-and-ifs
+  authors:
+  - Fisher, Janina
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - structural-dissociation
+  - trauma
+  - model-critique
+  - transcript
+
+- id: ifs-somatic-mcconnell
+  title: Somatic IFS with Susan McConnell new book
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/somatic-ifs-susan-mcconnell-new-book
+  authors:
+  - McConnell, Susan
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - somatic
+  - breath
+  - movement
+  - transcript
+  year: 2020
+
+- id: ifs-polyvagal-deb-dana
+  title: 'Polyvagal meets IFS: A Talk with Deb Dana'
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/polyvagal-meets-ifs-talk-deb-dana
+  authors:
+  - Dana, Deb
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - polyvagal
+  - co-regulation
+  - transcript
+  year: 2020
+
+- id: ifs-polyvagal-culver
+  title: IFS and Polyvagal integration with Ruth Culver
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/ifs-and-polyvagal-integration-ruth-culver
+  authors:
+  - Culver, Ruth
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - polyvagal
+  - ventral
+  - dorsal
+  - transcript
+  year: 2020
+
+- id: ifs-sexual-abuse-falconer
+  title: 'Sexual Abuse through IFS lens: A recovery journey with Bob Falconer |'
+  modality: ifs
+  tier: public_web
+  url: https://internalfamilysystems.pt/multimedia/webinars/sexual-abuse-through-ifs-lens-recovery-journey-bob-falconer
+  authors:
+  - Falconer, Robert
+  publisher: IFS Talks
+  license: public web page
+  tags:
+  - sexual-abuse
+  - trauma
+  - protector-permission
+  - transcript
+  year: 2020
+
+- id: ifio-speaking-for-parts-couples
+  title: 'Speaking For Your Parts: A Key IFIO Skill for Couples — Parts of Me Th'
+  modality: ifs
+  tier: public_web
+  url: https://www.partsofmetherapy.com/blog/speaking-for-your-parts-in-ifio-couples-therapy-the-key-to-healthier-communication
+  authors:
+  - Martin, Justin
+  publisher: Parts of Me Therapy
+  license: public web page
+  tags:
+  - couples
+  - ifio
+  - speaking-for-parts
+
+- id: ifio-partner-triggers-u-turn
+  title: Why You Feel Triggered by Your Partner | IFIO & Relationship Triggers
+  modality: ifs
+  tier: public_web
+  url: https://www.partsofmetherapy.com/blog/why-you-feel-triggered-by-your-partner-and-why-it-makes-so-much-sense-in-ifio
+  authors:
+  - Martin, Justin
+  publisher: Parts of Me Therapy
+  license: public web page
+  tags:
+  - couples
+  - ifio
+  - u-turn
+  - pursue-withdraw
+
+- id: ifio-unblending-relationship
+  title: How Unblending Can Save Your Relationship | IFS Couples Therapy [City,
+  modality: ifs
+  tier: public_web
+  url: https://www.partsofmetherapy.com/blog/how-unblending-can-save-your-relationship
+  authors:
+  - Martin, Justin
+  publisher: Parts of Me Therapy
+  license: public web page
+  tags:
+  - couples
+  - ifio
+  - unblending
+
+- id: ifio-communicate-without-defensiveness
+  title: How to Communicate Without Getting Defensive in Your Marriage — Parts
+  modality: ifs
+  tier: public_web
+  url: https://www.partsofmetherapy.com/blog/how-to-communicate-without-getting-defensive-in-your-marriage
+  authors:
+  - Martin, Justin
+  publisher: Parts of Me Therapy
+  license: public web page
+  tags:
+  - couples
+  - ifio
+  - courageous-communication
+  - protectors
+
+- id: ifs-speaking-for-parts-skill
+  title: 'Speaking For Your Parts: A Practical Internal Family Systems (IFS) The'
+  modality: ifs
+  tier: public_web
+  url: https://www.seancuthbert.com/post/speaking-for-your-parts-a-practical-internal-family-systems-ifs-therapy-skill
+  authors:
+  - Cuthbert, Sean
+  publisher: Sean Cuthbert Clinical Psychology
+  license: public web page
+  tags:
+  - speaking-for-parts
+  - unblending
+  - conflict
+
+- id: ifs-unblending-explained
+  title: What Is Unblending in Internal Family Systems (IFS) Therapy?
+  modality: ifs
+  tier: public_web
+  url: https://www.seancuthbert.com/post/what-is-unblending-in-internal-family-systems-ifs-therapy
+  authors:
+  - Cuthbert, Sean
+  publisher: Sean Cuthbert Clinical Psychology
+  license: public web page
+  tags:
+  - blending
+  - unblending
+  - technique
+
+- id: ifs-protector-secret-fears
+  title: The Secret Fears of Protector Parts in Internal Family Systems (IFS) T
+  modality: ifs
+  tier: public_web
+  url: https://www.seancuthbert.com/post/the-secret-fears-of-protector-parts-in-internal-family-systems-ifs-therapy
+  authors:
+  - Cuthbert, Sean
+  publisher: Sean Cuthbert Clinical Psychology
+  license: public web page
+  tags:
+  - protectors
+  - refusal
+  - permission
+
+- id: ifs-attachment-theory-link
+  title: Understanding the Connection Between IFS and Attachment Theory
+  modality: ifs
+  tier: public_web
+  url: https://www.seancuthbert.com/post/ifs-and-attachment-theory
+  authors:
+  - Cuthbert, Sean
+  publisher: Sean Cuthbert Clinical Psychology
+  license: public web page
+  tags:
+  - attachment
+  - exiles
+  - implicit-memory
+
+- id: ifio-herbine-blank-sattin
+  title: '52: Intimacy and Connection from the Inside Out with Toni Herbine-Blan'
+  modality: ifs
+  tier: public_web
+  url: https://www.neilsattin.com/blog/2016/08/52-intimacy-and-connection-from-the-inside-out-with-toni-herbine-blank/
+  authors:
+  - Herbine-Blank, Toni
+  - Sattin, Neil
+  publisher: Relationship Alive
+  license: public web page
+  tags:
+  - couples
+  - ifio
+  - u-turn
+  - speaking-for-parts
+  year: 2016
+
+- id: ifio-eft-integration
+  title: Couples therapist discusses deepening connection in relationships — Th
+  modality: ifs
+  tier: public_web
+  url: https://therapyonfig.com/blog/2025/2/9/bridging-the-gap-how-integrating-the-eft-and-ifio-couples-therapy-approaches-can-help-partners-more-deeply-connect
+  authors:
+  - Yu, Sharon
+  publisher: Therapy on Fig
+  license: public web page
+  tags:
+  - couples
+  - ifio
+  - eft
+  - comparison
+  year: 2025
+
+- id: ifs-embodied-repair-couples
+  title: Embodied repair for couples - PARTS & SELF
+  modality: ifs
+  tier: public_web
+  url: https://partsandself.org/embodied-repair-for-couples/
+  authors:
+  - Saeger, Sarah Ann
+  publisher: Parts and Self
+  license: public web page
+  tags:
+  - couples
+  - repair
+  - rupture
+  - u-turn
+  year: 2024
+
+- id: ifs-therapy-or-coaching-scope
+  title: Is IFS therapy or coaching? - PARTS & SELF
+  modality: ifs
+  tier: public_web
+  url: https://partsandself.org/is-ifs-therapy-or-coaching/
+  authors:
+  - Stamatelos, James J.
+  publisher: Parts and Self
+  license: public web page
+  tags:
+  - scope-of-practice
+  - training
+  - critique
+  year: 2024
+
+- id: ifs-problematic-popularity
+  title: 'Internal Family Systems: Exploring Its Problematic Popularity'
+  modality: ifs
+  tier: public_web
+  url: https://societyforpsychotherapy.org/internal-family-systems-exploring-its-problematic-popularity/
+  authors:
+  - Brownstone, Lisa M.
+  - Hunsicker, Madeline J.
+  - Greene, Amanda K.
+  publisher: Psychotherapy Bulletin (APA Div 29)
+  license: public web page
+  tags:
+  - critique
+  - evidence-base
+  - contraindications
+  year: 2024
+
+- id: ifs-nation-dubious-rise
+  title: The Rapid and Dubious Rise of the Internet’s New Favorite Therapy | Th
+  modality: ifs
+  tier: public_web
+  url: https://www.thenation.com/article/society/internal-family-systems-scam/
+  authors:
+  - McAllen, Jess
+  publisher: The Nation
+  license: public web page
+  tags:
+  - critique
+  - evidence-base
+  - commercialisation
+  year: 2025
+
+- id: ifs-acx-others-within-us
+  title: 'Book Review: The Others Within Us - by Scott Alexander'
+  modality: ifs
+  tier: public_web
+  url: https://www.astralcodexten.com/p/book-review-the-others-within-us
+  authors:
+  - Alexander, Scott
+  publisher: Astral Codex Ten
+  license: public web page
+  tags:
+  - critique
+  - unattached-burdens
+  - iatrogenic-harm
+  year: 2024
+
+- id: ifs-hidden-theology-benson
+  title: 'PUBLIC SERVICE ANNOUNCEMENT: The Hidden Theology of IFS Therapy'
+  modality: ifs
+  tier: public_web
+  url: https://leahbensontherapy.com/public-service-announcement-the-hidden-theology-of-ifs-therapy/
+  authors:
+  - Benson, Leah
+  publisher: Leah Benson Therapy
+  license: public web page
+  tags:
+  - critique
+  - metaphysical-drift
+  - reification
+
+- id: ifs-mad-perspective-training
+  title: A Mad Perspective on IFS Training - Mad In America
+  modality: ifs
+  tier: public_web
+  url: https://www.madinamerica.com/2025/07/a-mad-perspective-on-ifs-training/
+  authors:
+  - Dreby, Tim
+  publisher: Mad in America
+  license: public web page
+  tags:
+  - critique
+  - training
+  - limits
+  - lived-experience
+  year: 2025
+
+- id: ifs-can-be-dangerous
+  title: Can IFS Therapy Be Dangerous? What You Need to Know — John Clarke Ther
+  modality: ifs
+  tier: public_web
+  url: https://www.johnclarketherapy.com/podcast/can-ifs-therapy-be-dangerous-what-you-need-to-know
+  authors:
+  - Clarke, John
+  publisher: Going Inside
+  license: public web page
+  tags:
+  - risks
+  - contraindications
+  - destabilisation
+
+- id: ifs-why-parts-work-fails
+  title: 'IFS Criticism: Here’s why IFS Therapy doesn’t work like it’s supposed'
+  modality: ifs
+  tier: public_web
+  url: https://seekdeeply.com/ifs-criticism-myth-series-why-isnt-parts-work-working-blog/
+  authors:
+  - Aaron-Wayne, Lucille
+  publisher: Seek Deeply
+  license: public web page
+  tags:
+  - limits
+  - when-it-fails
+  - misapplication
+
+- id: ifs-healing-versus-bypass
+  title: 'Subtle Patterns in IFS: The Edge Between Healing and Bypass'
+  modality: ifs
+  tier: public_web
+  url: https://recoveryourcalm.substack.com/p/a-closer-look-at-ifs-and-complex
+  authors:
+  - Kim, Daniel
+  publisher: Inside the Nightmare
+  license: public web page
+  tags:
+  - critique
+  - complex-trauma
+  - avoidance
+
+- id: ifs-recovered-memory-castlewood
+  title: The Most Dangerous Idea in Mental Health - Pacific Standard
+  modality: ifs
+  tier: public_web
+  url: https://psmag.com/social-justice/dangerous-idea-mental-health-93325/
+  authors:
+  - Cara, Ed
+  publisher: Pacific Standard
+  license: public web page
+  tags:
+  - critique
+  - false-memory
+  - risks
+  - investigative
+  year: 2014
+
+- id: ifs-self-eight-cs-five-ps
+  title: Self in IFS Therapy - what it is, what are the 8 C's and the 5 P's of
+  modality: ifs
+  tier: public_web
+  url: https://www.therapywithalessio.com/articles/self-in-ifs-therapy-what-it-is-what-are-the-8-cs-and-the-5-ps-of-self
+  authors:
+  - Rizzo, Alessio
+  publisher: Therapy with Alessio
+  license: public web page
+  tags:
+  - self-energy
+  - eight-cs
+  - five-ps
+  year: 2021
+
+- id: ifs-parts-taxonomy-intro
+  title: Managers, Firefighters, Exiles and the Self – Introduction to the diff
+  modality: ifs
+  tier: public_web
+  url: https://www.ifswithsanni.com/blog/introduction-to-different-parts-in-ifs
+  authors:
+  - Kujala, Sanni
+  publisher: IFS with Sanni
+  license: public web page
+  tags:
+  - parts-taxonomy
+  - managers
+  - firefighters
+  - exiles
+
+- id: ifs-protector-interviews
+  title: Guide to Protector Interviews in IFS Therapy — IFS with Sanni
+  modality: ifs
+  tier: public_web
+  url: https://www.ifswithsanni.com/blog/a-step-by-step-guide-to-protector-interviews
+  authors:
+  - Kujala, Sanni
+  publisher: IFS with Sanni
+  license: public web page
+  tags:
+  - technique
+  - protectors
+  - six-fs
+
+- id: ifs-self-pluralism-scale
+  title: Psychometric properties of the Polish version of the Self-Pluralism Sc
+  modality: ifs
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10653052/
+  authors:
+  - Lys, Agnieszka E.
+  - Suszek, Hubert
+  - Fronczyk, Krzysztof
+  publisher: Current Issues in Personality Psychology
+  license: open access
+  tags:
+  - parts
+  - multiplicity
+  - measurement
+  year: 2021
+
+- id: ifs-multiple-self-openness
+  title: The multiple self and psychological openness - PMC
+  modality: ifs
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11860892/
+  authors:
+  - Suszek, Hubert
+  - Kopera, Maciej
+  - Jakubczyk, Andrzej
+  publisher: Frontiers in Psychology
+  license: open access
+  tags:
+  - parts
+  - multiplicity
+  - unblending
+  - experimental
+  year: 2025
+
+- id: ifs-self-states-nonverbal
+  title: 'How self-states help: Observing the embodiment of self-states through'
+  modality: ifs
+  tier: open
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10980216/
+  authors:
+  - Engel, Isabel
+  - Dshemuchadse, Maja
+  - Kanske, Philipp
+  - Scherbaum, Stefan
+  publisher: PLOS ONE
+  license: open access
+  tags:
+  - parts
+  - self-states
+  - embodiment
+  year: 2024
+
+- id: ifs-he-israel-couples
+  title: טיפול זוגי | IFS ישראל
+  modality: ifs
+  tier: public_web
+  url: https://www.ifs-israel.org/couples-therapy/
+  authors:
+  - Arbel, Osnat
+  - Avni Bronstein, Einat
+  publisher: IFS Israel
+  license: public web page
+  tags:
+  - hebrew
+  - couples
+  - ifio
+  - u-turn
+
+- id: ifs-he-israel-principles
+  title: עיקרי המודל | IFS ישראל
+  modality: ifs
+  tier: public_web
+  url: https://www.ifs-israel.org/principles/
+  authors:
+  - Arbel, Osnat
+  - Avni Bronstein, Einat
+  publisher: IFS Israel
+  license: public web page
+  tags:
+  - hebrew
+  - exiles
+  - managers
+  - firefighters
+  - self
+
+- id: ifs-he-israel-mindfulness
+  title: IFS ומיידפולנס | IFS ישראל
+  modality: ifs
+  tier: public_web
+  url: https://www.ifs-israel.org/ifs-and-mindfulness/
+  authors:
+  - Arbel, Osnat
+  - Avni Bronstein, Einat
+  publisher: IFS Israel
+  license: public web page
+  tags:
+  - hebrew
+  - mindfulness
+  - self
+  - practice
+
+- id: ifs-he-schema-therapy-compare
+  title: 'סכמה תרפיה ו-IFS: סכום החלקים גדול מהשלם'
+  modality: ifs
+  tier: public_web
+  url: https://www.hebpsy.net/articles.asp?id=4568
+  authors:
+  - Bar, Alon
+  publisher: Psychologia Ivrit (hebpsy.net)
+  license: public web page
+  tags:
+  - hebrew
+  - parts
+  - schema-therapy
+  - comparison
+  - long-form
+  year: 2023
+
+- id: ifs-he-exiles-managers-firefighters
+  title: מה בין גולים, מנהלים וכבאים?
+  modality: ifs
+  tier: public_web
+  url: https://www.hebpsy.net/articles.asp?id=2572
+  authors:
+  - Goren-Peleg, Naama
+  publisher: Psychologia Ivrit (hebpsy.net)
+  license: public web page
+  tags:
+  - hebrew
+  - exiles
+  - managers
+  - firefighters
+  - blending
+  year: 2011
+
+- id: ifs-he-tamir-guide
+  title: טיפול Internal Family Systems) IFS)? | רציונל, טכניקה ויעילות
+  modality: ifs
+  tier: public_web
+  url: https://www.tipulpsychology.co.il/therapy/ifs.html
+  authors:
+  - Machon Tamir
+  publisher: Machon Tamir
+  license: public web page
+  tags:
+  - hebrew
+  - six-fs
+  - parts
+  - contraindications
+
+- id: ifs-he-porat-internal-family
+  title: מערכת משפחתית פנימית (IFS) - להיות האמא שתמיד רציתי ומעולם לא היתה לי
+  modality: ifs
+  tier: public_web
+  url: https://sheliporat.com/self-differentiation/
+  authors:
+  - Porat, Sheli
+  publisher: sheliporat.com
+  license: public web page
+  tags:
+  - hebrew
+  - parts
+  - burdens
+  - case-dialogue
+  - long-form
+
+- id: efct-he-eftisrael-what-is-eft
+  title: מה זה טיפול זוגי ממוקד רגש
+  modality: efct
+  tier: public_web
+  url: https://www.eftisrael.org/what-is-eft
+  authors:
+  - EFT Israel
+  publisher: EFT Israel (ICEEFT)
+  license: public web page
+  tags:
+  - hebrew
+  - couples
+  - negative-cycle
+  - nine-steps
+
+- id: efct-he-betipulnet-roadmap
+  title: 'טיפול ממוקד רגש במערכת המשפחתית והזוגית: מפת דרכים | בטיפולנט'
+  modality: efct
+  tier: public_web
+  url: https://www.betipulnet.co.il/page/EFT_for_families_and_couples_a_roadmap_newsletter/
+  authors:
+  - Mikulincer, Mario
+  - Diamond, Gary
+  - Bar-Kalifa, Eran
+  publisher: Betipulnet
+  license: public web page
+  tags:
+  - hebrew
+  - couples
+  - family
+  - attachment
+  - enactments
+  year: 2025
+
+- id: eft-he-model-overview
+  title: 'טיפול ממוקד-רגשות (Emotion-Focused Therapy): הצגה כללית של ה'
+  modality: eft
+  tier: public_web
+  url: https://www.hebpsy.net/articles.asp?id=3031
+  authors:
+  - Ben Shahar, Aviv
+  publisher: Psychologia Ivrit (hebpsy.net)
+  license: public web page
+  tags:
+  - hebrew
+  - emotion
+  - two-chair
+  - case-study
+  year: 2013
+
+- id: aedp-he-overview
+  title: AEDP – טיפול חווייתי-דינמי מואץ
+  modality: aedp
+  tier: public_web
+  url: https://psychologim.com/AEDP/
+  authors:
+  - Psychologim.com
+  publisher: Psychologim.com
+  license: public web page
+  tags:
+  - hebrew
+  - aedp
+  - neuroplasticity
+  - trauma
+  year: 2025
+
+# ===========================================================================
+# Hebrew IFS podcast, transcribed locally (whisper large-v3-turbo, he).
+# The richest Hebrew IFS material that exists; everything else in Hebrew on
+# this model is short explainer pages. Transcripts live in library/transcripts/.
+# Output rule is unchanged: quote briefly, attribute, and point the listener
+# at the episode itself.
+# ===========================================================================
+
+- id: ifs-he-pod-01
+  title: 'פרק 1: היכרות עם המודל הטיפולי - אבישי איתמר מראיין את ד"ר אסנת ארבל ועינת אבני ברונסטין'
+  modality: ifs
+  tier: public_web
+  url: https://podcasters.spotify.com/pod/show/l9ym5ag36h469vr7pyorh0k4b/episodes/1-------e2lo5gb
+  authors:
+  - Itamar, Avishai
+  publisher: העולם בפנים - פודקאסט IFS בעברית
+  year: 2024
+  license: published podcast; transcript generated locally for private reference, quoted only briefly
+    with attribution
+  lang: he
+  tags:
+  - hebrew
+  - podcast
+  - transcript
+  - ifs
+
+- id: ifs-he-pod-02
+  title: 'מדיטציה: אנבלנדינג בארבעה שלבים - בהנחיית ד"ר אסנת ארבל'
+  modality: ifs
+  tier: public_web
+  url: https://podcasters.spotify.com/pod/show/l9ym5ag36h469vr7pyorh0k4b/episodes/--e2lo70v
+  authors:
+  - Itamar, Avishai
+  publisher: העולם בפנים - פודקאסט IFS בעברית
+  year: 2024
+  license: published podcast; transcript generated locally for private reference, quoted only briefly
+    with attribution
+  lang: he
+  tags:
+  - hebrew
+  - podcast
+  - transcript
+  - ifs
+  - guided-practice
+  - unblending
+
+- id: ifs-he-pod-03
+  title: 'פרק 2: המשך ההיכרות עם המודל. אבישי איתמר מראיין את עינת אבני ברונסטין וד"ר אסנת ארבל'
+  modality: ifs
+  tier: public_web
+  url: https://podcasters.spotify.com/pod/show/l9ym5ag36h469vr7pyorh0k4b/episodes/2-e2lo759
+  authors:
+  - Itamar, Avishai
+  publisher: העולם בפנים - פודקאסט IFS בעברית
+  year: 2024
+  license: published podcast; transcript generated locally for private reference, quoted only briefly
+    with attribution
+  lang: he
+  tags:
+  - hebrew
+  - podcast
+  - transcript
+  - ifs
+
+- id: ifs-he-pod-04
+  title: 'מדיטציה: היכרות עם חלק בהנחיית עינת אבני ברונסטין'
+  modality: ifs
+  tier: public_web
+  url: https://podcasters.spotify.com/pod/show/l9ym5ag36h469vr7pyorh0k4b/episodes/ep-e2lo7eb
+  authors:
+  - Itamar, Avishai
+  publisher: העולם בפנים - פודקאסט IFS בעברית
+  year: 2024
+  license: published podcast; transcript generated locally for private reference, quoted only briefly
+    with attribution
+  lang: he
+  tags:
+  - hebrew
+  - podcast
+  - transcript
+  - ifs
+  - guided-practice
+
+- id: ifs-he-pod-05
+  title: 'פרק 3: IFS וה7/10'
+  modality: ifs
+  tier: public_web
+  url: https://podcasters.spotify.com/pod/show/l9ym5ag36h469vr7pyorh0k4b/episodes/3-IFS-710-e2lo7h3
+  authors:
+  - Itamar, Avishai
+  publisher: העולם בפנים - פודקאסט IFS בעברית
+  year: 2024
+  license: published podcast; transcript generated locally for private reference, quoted only briefly
+    with attribution
+  lang: he
+  tags:
+  - hebrew
+  - podcast
+  - transcript
+  - ifs
+
+- id: ifs-he-pod-06
+  title: 'פרק 4: העבודה המעשית עם המודל. אבישי איתמר מראיין את ד"ר אסנת ארבל ועינת אבני ברונסטין'
+  modality: ifs
+  tier: public_web
+  url: https://podcasters.spotify.com/pod/show/l9ym5ag36h469vr7pyorh0k4b/episodes/4-e2lo7ub
+  authors:
+  - Itamar, Avishai
+  publisher: העולם בפנים - פודקאסט IFS בעברית
+  year: 2024
+  license: published podcast; transcript generated locally for private reference, quoted only briefly
+    with attribution
+  lang: he
+  tags:
+  - hebrew
+  - podcast
+  - transcript
+  - ifs
+
+- id: ifs-he-pod-07
+  title: 'מדיטציה: סיבוב פרסה עם ד"ר אסנת ארבל'
+  modality: ifs
+  tier: public_web
+  url: https://podcasters.spotify.com/pod/show/l9ym5ag36h469vr7pyorh0k4b/episodes/ep-e2lo8dq
+  authors:
+  - Itamar, Avishai
+  publisher: העולם בפנים - פודקאסט IFS בעברית
+  year: 2024
+  license: published podcast; transcript generated locally for private reference, quoted only briefly
+    with attribution
+  lang: he
+  tags:
+  - hebrew
+  - podcast
+  - transcript
+  - ifs
+  - guided-practice
+  - u-turn
+  - couples
+
+- id: ifs-he-pod-08
+  title: 'פרק 5: Demo הדגמה של סשן טיפולי - ד"ר אסנת ארבל מטפלת באבישי איתמר'
+  modality: ifs
+  tier: public_web
+  url: https://podcasters.spotify.com/pod/show/l9ym5ag36h469vr7pyorh0k4b/episodes/5-Demo-------e2mbq6h
+  authors:
+  - Itamar, Avishai
+  publisher: העולם בפנים - פודקאסט IFS בעברית
+  year: 2024
+  license: published podcast; transcript generated locally for private reference, quoted only briefly
+    with attribution
+  lang: he
+  tags:
+  - hebrew
+  - podcast
+  - transcript
+  - ifs
+  - session-demo
+  - clinical-demonstration
+
+- id: ifs-he-pod-09
+  title: 'פרק 6: שיחה עם אבי ברנשטיין על IFS כקב"ן בצה"ל ועל הכח המרפא של הוויה פתוחה'
+  modality: ifs
+  tier: public_web
+  url: https://podcasters.spotify.com/pod/show/l9ym5ag36h469vr7pyorh0k4b/episodes/6------IFS-e2ms8vh
+  authors:
+  - Itamar, Avishai
+  publisher: העולם בפנים - פודקאסט IFS בעברית
+  year: 2024
+  license: published podcast; transcript generated locally for private reference, quoted only briefly
+    with attribution
+  lang: he
+  tags:
+  - hebrew
+  - podcast
+  - transcript
+  - ifs
+
+- id: ifs-he-pod-10
+  title: 'מדיטציה: חיבור לרגש אינטנסיבי עם אבי ברנשטיין'
+  modality: ifs
+  tier: public_web
+  url: https://podcasters.spotify.com/pod/show/l9ym5ag36h469vr7pyorh0k4b/episodes/ep-e2ms9a4
+  authors:
+  - Itamar, Avishai
+  publisher: העולם בפנים - פודקאסט IFS בעברית
+  year: 2024
+  license: published podcast; transcript generated locally for private reference, quoted only briefly
+    with attribution
+  lang: he
+  tags:
+  - hebrew
+  - podcast
+  - transcript
+  - ifs
+  - guided-practice
+
+- id: ifs-he-pod-11
+  title: 'פרק 7: אבישי איתמר מדבר על הספר "טיפול IFS מודע לטראומה ולדיסוסיאציה" מאת ג''ואן טוומבלי'
+  modality: ifs
+  tier: public_web
+  url: https://podcasters.spotify.com/pod/show/l9ym5ag36h469vr7pyorh0k4b/episodes/7-------IFS-e2oboep
+  authors:
+  - Itamar, Avishai
+  publisher: העולם בפנים - פודקאסט IFS בעברית
+  year: 2024
+  license: published podcast; transcript generated locally for private reference, quoted only briefly
+    with attribution
+  lang: he
+  tags:
+  - hebrew
+  - podcast
+  - transcript
+  - ifs
+  - trauma
+  - dissociation
+
+- id: ifs-he-pod-12
+  title: 'מדיטציה: אבישי איתמר מתרגל את ההצעות של ג''ואן טוומבלי למרחב בטוח, בועות ומיכלים. כלים לעבודה
+    עם הצפה של תוכן "וולקני"'
+  modality: ifs
+  tier: public_web
+  url: https://podcasters.spotify.com/pod/show/l9ym5ag36h469vr7pyorh0k4b/episodes/ep-e2obppe
+  authors:
+  - Itamar, Avishai
+  publisher: העולם בפנים - פודקאסט IFS בעברית
+  year: 2024
+  license: published podcast; transcript generated locally for private reference, quoted only briefly
+    with attribution
+  lang: he
+  tags:
+  - hebrew
+  - podcast
+  - transcript
+  - ifs
+  - guided-practice
+
+- id: pact-concepts
+  title: "PACT concepts, for reading a couples session (EN/HE)"
+  modality: pact
+  tier: original
+  authors: ["confidential-rag project"]
+  year: 2026
+  license: "original work written for this project"
+  tags: ["secure-functioning", "couple-bubble", "islands-waves-anchors", "arousal", "co-regulation", "launchings-landings", "hebrew"]

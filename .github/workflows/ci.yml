@@ -1,0 +1,25 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Confidentiality boundary (nothing private is tracked)
+        run: python3 scripts/check_boundary.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      # Everything except the embedding model stack: the tests never load a model.
+      - name: Install
+        run: |
+          pip install pyyaml httpx trafilatura beautifulsoup4 lxml pypdf python-docx qdrant-client pytest
+          pip install -e . --no-deps
+      - name: Registry loads and every entry passes the tier policy
+        run: python -c "from library import registry; s = registry.load(); print(registry.summarise(s))"
+      - name: Tests
+        run: python -m pytest tests -q

@@ -1,0 +1,66 @@
+# ---------------------------------------------------------------------------
+# CONFIDENTIALITY BOUNDARY — do not relax any rule in this block.
+# Everything here is CLINICAL material: her documents, session recordings,
+# session transcripts and generated guidance. It stays on the private box.
+#
+# Paths are anchored with a leading slash so they match only at the repo root.
+# An unanchored rule like "transcripts/" also silently matches
+# library/transcripts/, which is public-source material, not clinical.
+# ---------------------------------------------------------------------------
+library/sources/private/
+/sessions/
+/transcripts/
+/audio/
+/guidance/
+*.docx
+*.doc
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.srt
+couples.yaml
+couple-map*
+# ---------------------------------------------------------------------------
+
+# Third-party text: fetched pages and generated podcast transcripts are copies of other people's
+# work. They are rebuilt locally from sources.yaml (fetch + scripts/transcribe_feed.py) and never
+# published. The registry keeps the citation; the text stays on the machine that fetched it.
+library/raw/
+library/transcripts/
+
+# derived artefacts: large, binary, and rebuilt from library/raw + sources.yaml
+library/index/
+library/_podcast_work/
+
+# secrets
+.env
+.env.*
+*.key
+*.pem
+credentials*.json
+service-account*.json
+rclone.conf
+
+# models (large, re-downloadable)
+models/
+*.gguf
+*.safetensors
+*.bin
+
+# python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
